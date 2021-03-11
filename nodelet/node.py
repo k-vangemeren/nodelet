@@ -1,17 +1,34 @@
 #!/usr/bin/env python3
 
+"""
+Node abstracts of the connection to a node and provides the
+following some basic utilities once connected
+
+Usage:
+
+foo = Node(ip_address)
+foo.send_command("foo")
+foo.close()
+
+            OR
+
+with Node(ip_address) as n:
+    n.send_command("foo")
+
+"""
+
 import os
-import paramiko
-import scp
 import sys
 import time
+
+import paramiko
+import scp
 
 class Node:
     def __init__(self, IP, jumpbox=False):
         self.KEY_FILE = os.getenv('HOME')+'/.ssh/id_rsa'
         self.PATH_SSH_CONFIG = os.getenv('HOME')+"/.ssh/config"
         self.PATH_ID_RSA_SWITCH = os.getenv('HOME')+"/.ssh/id_rsa_switch"
-        
         self.JBOX_PRIVATE = "10.18.1.1"
 
         self._get_config()
@@ -67,6 +84,19 @@ class Node:
         )
 
     def send_command(self, cmd, cmd_timeout=None, splitlines=0):
+        """Send command to node and return the result.
+    
+        Required:
+            cmd (str) - command for the node to execute.
+    
+        Optional:
+            timeout (int) - forces the channel closed after n seconds
+            splitlines (bool) - split the lines of the nodes response
+
+        Returns:
+            utf-8 decoded node response.
+        """
+
         s_time = time.time()
         _stdin, stdout, _stderr = self._conn.exec_command(
             cmd, get_pty=True
@@ -79,12 +109,20 @@ class Node:
                     stdout.channel.close()
                     print("Closed Channel")
                     break
+
         if splitlines:
             return stdout.read().decode("utf-8").splitlines()
         else:
             return stdout.read().decode("utf-8")
 
     def send_file(self, local_path, dest_path):
+        """Send local file (or directory) to the node.
+
+        Required:
+            local_path (str) - absolute path or relative to the working directory
+            dest_path (str) - absolute remote path
+        """
+
         _scp = scp.SCPClient(self._conn.get_transport())
         _scp.put(
             local_path,
@@ -94,15 +132,24 @@ class Node:
         _scp.close()
     
     def get_file(self, remote_path, local_path):
+        """Get file (or directory) at remote_path and save to local_path
+
+        Required:
+            remote_path (str) - absolute remote path
+            local_path (str) - absolute local path or relative to the working directory
+        """
         _scp = scp.SCPClient(self._conn.get_transport())
         _scp.get(
             remote_path,
-            local_path
+            local_path, 
+            recursive=True
         )
         _scp.close()
 
 
 if __name__ == "__main__":
+
+    # Test...should respond with the hostname a0u4m0
     with Node("10.10.1.1") as conn:
         print("Test: send_command")
         print(conn.send_command("hostname"))
