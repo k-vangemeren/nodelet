@@ -66,7 +66,8 @@ class Node:
 
     def close(self):
         self._conn.close
-        self.jbox.close
+        if self.jumpbox:
+            self.jbox.close
 
     def _get_config(self):
         config = paramiko.SSHConfig()
