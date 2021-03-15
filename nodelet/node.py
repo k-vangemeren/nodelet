@@ -25,13 +25,30 @@ import paramiko
 import scp
 
 class Node:
-    def __init__(self, IP, jumpbox=False):
-        self.KEY_FILE = os.getenv('HOME')+'/.ssh/id_rsa'
-        self.PATH_SSH_CONFIG = os.getenv('HOME')+"/.ssh/config"
-        self.PATH_ID_RSA_SWITCH = os.getenv('HOME')+"/.ssh/id_rsa_switch"
-        self.JBOX_PRIVATE = "10.18.1.1"
+    def __init__(self, IP, jumpbox=False, keyfile="default"):
+        """Abstracts node activities
+        
+        Requires:
+            IP (str) - ip_address in form "x.x.x.x" of the target node
+        
+        Optional:
+            jumpbox (bool) - default:False - specify to connect through jumpbox.
+                                Requires setup. See repo readme for details
+            keyfile (str) - default:"default" - path to keyfile. 
+                                default evaluates to ~/.ssh/id_rsa_switch
+        """
+        self.jumpbox = jumpbox
 
-        self._get_config()
+        if keyfile == "default":        
+            self.PATH_ID_RSA_SWITCH = os.getenv('HOME')+"/.ssh/id_rsa_switch"
+        else:
+            self.Path_ID_RSA_SWITCH = keyfile
+
+        if self.jumpbox:
+            self.KEY_FILE = os.getenv('HOME')+'/.ssh/id_rsa'
+            self.JBOX_PRIVATE = "10.18.1.1"
+            self.PATH_SSH_CONFIG = os.getenv('HOME')+"/.ssh/config"
+         
         self._connect(IP)
 
     def __enter__(self):
@@ -57,6 +74,8 @@ class Node:
         self.conf = config.lookup("jumpbox-ra2")
 
     def _open_channel(self, target_ip):
+        self._get_config()
+
         self.jbox = paramiko.SSHClient()
         self.jbox.set_missing_host_key_policy(paramiko.AutoAddPolicy())
         
@@ -71,17 +90,27 @@ class Node:
         src = (self.JBOX_PRIVATE, self.conf.as_int('port'))
         dst = (target_ip, self.conf.as_int('port'))
         chnl = jbox_transport.open_channel("direct-tcpip", dst, src)
+
         return chnl
 
     def _connect(self, target_ip):
         self._conn = paramiko.SSHClient()
         self._conn.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-        self._conn.connect(
-            target_ip,
-            username='ubuntu',
-            key_filename=self.PATH_ID_RSA_SWITCH,
-            sock=self._open_channel(target_ip)
-        )
+        
+        if self.jumpbox:
+            self._conn.connect(
+                target_ip,
+                username='ubuntu',
+                key_filename=self.PATH_ID_RSA_SWITCH,
+                sock=self._open_channel(target_ip)
+            )
+        
+        else:
+            self._conn.connect(
+                target_ip,
+                username='ubuntu',
+                key_filename=self.PATH_ID_RSA_SWITCH
+            )
 
     def send_command(self, cmd, cmd_timeout=None, splitlines=0):
         """Send command to node and return the result.
