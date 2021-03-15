@@ -6,6 +6,9 @@ authors = ["Keegan van Gemeren <76065987+k-vangemeren@users.noreply.github.com>"
 
 [tool.poetry.dependencies]
 python = "^3.6"
+PyYAML = "^5.4.1"
+paramiko = "^2.7.2"
+scp = "^0.13.3"
 
 [tool.poetry.dev-dependencies]
 

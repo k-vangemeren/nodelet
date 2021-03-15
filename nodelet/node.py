@@ -92,6 +92,7 @@ class Node:
         Optional:
             timeout (int) - forces the channel closed after n seconds
             splitlines (bool) - split the lines of the nodes response
+                                (default) False
 
         Returns:
             utf-8 decoded node response.
@@ -150,6 +151,7 @@ class Node:
 if __name__ == "__main__":
 
     # Test...should respond with the hostname a0u4m0
+    # VPN on...
     with Node("10.10.1.1") as conn:
         print("Test: send_command")
         print(conn.send_command("hostname"))
