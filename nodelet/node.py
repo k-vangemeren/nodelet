@@ -42,7 +42,7 @@ class Node:
         if keyfile == "default":        
             self.PATH_ID_RSA_SWITCH = os.getenv('HOME')+"/.ssh/id_rsa_switch"
         else:
-            self.Path_ID_RSA_SWITCH = keyfile
+            self.PATH_ID_RSA_SWITCH = keyfile
 
         if self.jumpbox:
             self.KEY_FILE = os.getenv('HOME')+'/.ssh/id_rsa'
