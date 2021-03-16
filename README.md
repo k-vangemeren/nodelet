@@ -53,6 +53,9 @@ with Node(ip_address) as n:
 
 ```
 
+See the examples folder for more!
+
+
 ## Appendix - SSH Config Example
 
 ```
