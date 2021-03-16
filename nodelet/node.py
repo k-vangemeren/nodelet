@@ -99,7 +99,7 @@ class Node:
         self._conn.set_missing_host_key_policy(paramiko.AutoAddPolicy())
         
         if self.jumpbox:
-            self._conn.connect(
+             self._conn.connect(
                 target_ip,
                 username='ubuntu',
                 key_filename=self.PATH_ID_RSA_SWITCH,
