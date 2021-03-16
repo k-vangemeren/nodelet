@@ -53,13 +53,6 @@ with Node(ip_address) as n:
 
 ```
 
-
-## To-Do
-
-- Cleanup
-- Usage documentation
-- Examples folder
-
 ## Appendix - SSH Config Example
 
 ```
