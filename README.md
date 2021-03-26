@@ -7,6 +7,22 @@ Python library to aid in distributed node operations
 
 - The file `id_rsa_switch` must be present in the users `~/.ssh/` directory, with the correct permissions.
 
+- To setup on the RA2 jumpbox:
+```
+   virtualenv nodelet_env --python=/usr/bin/python3.6
+   source nodelet_env/bin/activate
+   python3 -m pip install -r requirements.txt
+```
+
+- To execute:
+```
+   python node-logs.py -n <hostname> 
+```
+Example:
+```
+   python node-logs.py -n c1u4m8 
+```
+
 ### Running outside RA2
 
 - The file `id_rsa_switch` must be present in the users `~/.ssh/` directory, with the correct permissions.
