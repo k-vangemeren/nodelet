@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/bin/env python3
 
 """
 Node abstracts of the connection to a node and provides the
@@ -25,7 +25,7 @@ import paramiko
 import scp
 
 class Node:
-    def __init__(self, IP, jumpbox=False, keyfile="default"):
+    def __init__(self, IP, userid='ubuntu', jumpbox=False, keyfile="default" ):
         """Abstracts node activities
         
         Requires:
@@ -49,7 +49,7 @@ class Node:
             self.JBOX_PRIVATE = "10.18.1.1"
             self.PATH_SSH_CONFIG = os.getenv('HOME')+"/.ssh/config"
          
-        self._connect(IP)
+        self._connect(IP, userid)
 
     def __enter__(self):
         return self
@@ -94,23 +94,29 @@ class Node:
 
         return chnl
 
-    def _connect(self, target_ip):
+    def _connect(self, target_ip, userid='ubuntu'):
         self._conn = paramiko.SSHClient()
         self._conn.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-        
-        if self.jumpbox:
+
+        if self.jumpbox==True:
              self._conn.connect(
                 target_ip,
-                username='ubuntu',
+                username=userid,
                 key_filename=self.PATH_ID_RSA_SWITCH,
                 sock=self._open_channel(target_ip)
             )
-        
+
+        if userid=='ubuntu':
+            self._conn.connect(
+                target_ip,
+                username=userid,
+                key_filename=self.PATH_ID_RSA_SWITCH
+            )
         else:
             self._conn.connect(
                 target_ip,
-                username='ubuntu',
-                key_filename=self.PATH_ID_RSA_SWITCH
+                username=userid,
+                password='root'
             )
 
     def send_command(self, cmd, cmd_timeout=None, splitlines=0):
@@ -182,6 +188,12 @@ if __name__ == "__main__":
 
     # Test...should respond with the hostname a0u4m0
     # VPN on...
-    with Node("10.10.1.1") as conn:
-        print("Test: send_command")
+    # Host IP
+    with Node("a1u4m0", userid="ubuntu") as conn:
+        print("Test host: send_command")
         print(conn.send_command("hostname"))
+
+    # HLS IP
+    with Node("10.0.101.10",userid="root") as hls_conn:
+        print("Test HLS: send_command")
+        print(hls_conn.send_command("hostname"))
