@@ -1,0 +1,1792 @@
+- a1u4m0:
+    aisle: a
+    bmc_addr: 10.0.101.10
+    ip_addr: 10.10.1.1
+    megapod: 0
+    rack: 1
+    slot: 4
+- a1u9m0:
+    aisle: a
+    bmc_addr: 10.0.101.12
+    ip_addr: 10.10.2.1
+    megapod: 0
+    rack: 1
+    slot: 9
+- a1u14m0:
+    aisle: a
+    bmc_addr: 10.0.101.14
+    ip_addr: 10.10.3.1
+    megapod: 0
+    rack: 1
+    slot: 14
+- a1u19m0:
+    aisle: a
+    bmc_addr: 10.0.101.16
+    ip_addr: 10.10.4.1
+    megapod: 0
+    rack: 1
+    slot: 19
+- a1u24m0:
+    aisle: a
+    bmc_addr: 10.0.101.18
+    ip_addr: 10.10.5.1
+    megapod: 0
+    rack: 1
+    slot: 24
+- a1u29m0:
+    aisle: a
+    bmc_addr: 10.0.101.20
+    ip_addr: 10.10.6.1
+    megapod: 0
+    rack: 1
+    slot: 29
+- a1u34m0:
+    aisle: a
+    bmc_addr: 10.0.101.22
+    ip_addr: 10.10.7.1
+    megapod: 0
+    rack: 1
+    slot: 34
+- a1u39m0:
+    aisle: a
+    bmc_addr: 10.0.101.24
+    ip_addr: 10.10.8.1
+    megapod: 0
+    rack: 1
+    slot: 39
+- a3u4m0:
+    aisle: a
+    bmc_addr: 10.0.103.10
+    ip_addr: 10.10.9.1
+    megapod: 0
+    rack: 3
+    slot: 4
+- a3u9m0:
+    aisle: a
+    bmc_addr: 10.0.103.12
+    ip_addr: 10.10.10.1
+    megapod: 0
+    rack: 3
+    slot: 9
+- a3u14m0:
+    aisle: a
+    bmc_addr: 10.0.103.14
+    ip_addr: 10.10.11.1
+    megapod: 0
+    rack: 3
+    slot: 14
+- a3u19m0:
+    aisle: a
+    bmc_addr: 10.0.103.16
+    ip_addr: 10.10.12.1
+    megapod: 0
+    rack: 3
+    slot: 19
+- a3u24m0:
+    aisle: a
+    bmc_addr: 10.0.103.18
+    ip_addr: 10.10.13.1
+    megapod: 0
+    rack: 3
+    slot: 24
+- a3u29m0:
+    aisle: a
+    bmc_addr: 10.0.103.20
+    ip_addr: 10.10.14.1
+    megapod: 0
+    rack: 3
+    slot: 29
+- a3u34m0:
+    aisle: a
+    bmc_addr: 10.0.103.22
+    ip_addr: 10.10.15.1
+    megapod: 0
+    rack: 3
+    slot: 34
+- a3u39m0:
+    aisle: a
+    bmc_addr: 10.0.103.24
+    ip_addr: 10.10.16.1
+    megapod: 0
+    rack: 3
+    slot: 39
+- a4u4m1:
+    aisle: a
+    bmc_addr: 10.0.104.10
+    ip_addr: 10.10.17.1
+    megapod: 1
+    rack: 4
+    slot: 4
+- a4u9m1:
+    aisle: a
+    bmc_addr: 10.0.104.12
+    ip_addr: 10.10.18.1
+    megapod: 1
+    rack: 4
+    slot: 9
+- a4u14m1:
+    aisle: a
+    bmc_addr: 10.0.104.14
+    ip_addr: 10.10.19.1
+    megapod: 1
+    rack: 4
+    slot: 14
+- a4u19m1:
+    aisle: a
+    bmc_addr: 10.0.104.16
+    ip_addr: 10.10.20.1
+    megapod: 1
+    rack: 4
+    slot: 19
+- a4u24m1:
+    aisle: a
+    bmc_addr: 10.0.104.18
+    ip_addr: 10.10.21.1
+    megapod: 1
+    rack: 4
+    slot: 24
+- a4u29m1:
+    aisle: a
+    bmc_addr: 10.0.104.20
+    ip_addr: 10.10.22.1
+    megapod: 1
+    rack: 4
+    slot: 29
+- a4u34m1:
+    aisle: a
+    bmc_addr: 10.0.104.22
+    ip_addr: 10.10.23.1
+    megapod: 1
+    rack: 4
+    slot: 34
+- a4u39m1:
+    aisle: a
+    bmc_addr: 10.0.104.24
+    ip_addr: 10.10.24.1
+    megapod: 1
+    rack: 4
+    slot: 39
+- a6u4m1:
+    aisle: a
+    bmc_addr: 10.0.106.10
+    ip_addr: 10.10.25.1
+    megapod: 1
+    rack: 6
+    slot: 4
+- a6u9m1:
+    aisle: a
+    bmc_addr: 10.0.106.12
+    ip_addr: 10.10.26.1
+    megapod: 1
+    rack: 6
+    slot: 9
+- a6u14m1:
+    aisle: a
+    bmc_addr: 10.0.106.14
+    ip_addr: 10.10.27.1
+    megapod: 1
+    rack: 6
+    slot: 14
+- a6u19m1:
+    aisle: a
+    bmc_addr: 10.0.106.16
+    ip_addr: 10.10.28.1
+    megapod: 1
+    rack: 6
+    slot: 19
+- a6u24m1:
+    aisle: a
+    bmc_addr: 10.0.106.18
+    ip_addr: 10.10.29.1
+    megapod: 1
+    rack: 6
+    slot: 24
+- a6u29m1:
+    aisle: a
+    bmc_addr: 10.0.106.20
+    ip_addr: 10.10.30.1
+    megapod: 1
+    rack: 6
+    slot: 29
+- a6u34m1:
+    aisle: a
+    bmc_addr: 10.0.106.22
+    ip_addr: 10.10.31.1
+    megapod: 1
+    rack: 6
+    slot: 34
+- a6u39m1:
+    aisle: a
+    bmc_addr: 10.0.106.24
+    ip_addr: 10.10.32.1
+    megapod: 1
+    rack: 6
+    slot: 39
+- a7u4m2:
+    aisle: a
+    bmc_addr: 10.0.107.10
+    ip_addr: 10.11.1.1
+    megapod: 2
+    rack: 7
+    slot: 4
+- a7u9m2:
+    aisle: a
+    bmc_addr: 10.0.107.12
+    ip_addr: 10.11.2.1
+    megapod: 2
+    rack: 7
+    slot: 9
+- a7u14m2:
+    aisle: a
+    bmc_addr: 10.0.107.14
+    ip_addr: 10.11.3.1
+    megapod: 2
+    rack: 7
+    slot: 14
+- a7u19m2:
+    aisle: a
+    bmc_addr: 10.0.107.16
+    ip_addr: 10.11.4.1
+    megapod: 2
+    rack: 7
+    slot: 19
+- a7u24m2:
+    aisle: a
+    bmc_addr: 10.0.107.18
+    ip_addr: 10.11.5.1
+    megapod: 2
+    rack: 7
+    slot: 24
+- a7u29m2:
+    aisle: a
+    bmc_addr: 10.0.107.20
+    ip_addr: 10.11.6.1
+    megapod: 2
+    rack: 7
+    slot: 29
+- a7u34m2:
+    aisle: a
+    bmc_addr: 10.0.107.22
+    ip_addr: 10.11.7.1
+    megapod: 2
+    rack: 7
+    slot: 34
+- a7u39m2:
+    aisle: a
+    bmc_addr: 10.0.107.24
+    ip_addr: 10.11.8.1
+    megapod: 2
+    rack: 7
+    slot: 39
+- a9u4m2:
+    aisle: a
+    bmc_addr: 10.0.109.10
+    ip_addr: 10.11.9.1
+    megapod: 2
+    rack: 9
+    slot: 4
+- a9u9m2:
+    aisle: a
+    bmc_addr: 10.0.109.12
+    ip_addr: 10.11.10.1
+    megapod: 2
+    rack: 9
+    slot: 9
+- a9u14m2:
+    aisle: a
+    bmc_addr: 10.0.109.14
+    ip_addr: 10.11.11.1
+    megapod: 2
+    rack: 9
+    slot: 14
+- a9u19m2:
+    aisle: a
+    bmc_addr: 10.0.109.16
+    ip_addr: 10.11.12.1
+    megapod: 2
+    rack: 9
+    slot: 19
+- a9u24m2:
+    aisle: a
+    bmc_addr: 10.0.109.18
+    ip_addr: 10.11.13.1
+    megapod: 2
+    rack: 9
+    slot: 24
+- a9u29m2:
+    aisle: a
+    bmc_addr: 10.0.109.20
+    ip_addr: 10.11.14.1
+    megapod: 2
+    rack: 9
+    slot: 29
+- a9u34m2:
+    aisle: a
+    bmc_addr: 10.0.109.22
+    ip_addr: 10.11.15.1
+    megapod: 2
+    rack: 9
+    slot: 34
+- a9u39m2:
+    aisle: a
+    bmc_addr: 10.0.109.24
+    ip_addr: 10.11.16.1
+    megapod: 2
+    rack: 9
+    slot: 39
+- a10u4m3:
+    aisle: a
+    bmc_addr: 10.0.110.10
+    ip_addr: 10.11.17.1
+    megapod: 3
+    rack: 10
+    slot: 4
+- a10u9m3:
+    aisle: a
+    bmc_addr: 10.0.110.12
+    ip_addr: 10.11.18.1
+    megapod: 3
+    rack: 10
+    slot: 9
+- a10u14m3:
+    aisle: a
+    bmc_addr: 10.0.110.14
+    ip_addr: 10.11.19.1
+    megapod: 3
+    rack: 10
+    slot: 14
+- a10u19m3:
+    aisle: a
+    bmc_addr: 10.0.110.16
+    ip_addr: 10.11.20.1
+    megapod: 3
+    rack: 10
+    slot: 19
+- a10u24m3:
+    aisle: a
+    bmc_addr: 10.0.110.18
+    ip_addr: 10.11.21.1
+    megapod: 3
+    rack: 10
+    slot: 24
+- a10u29m3:
+    aisle: a
+    bmc_addr: 10.0.110.20
+    ip_addr: 10.11.22.1
+    megapod: 3
+    rack: 10
+    slot: 29
+- a10u34m3:
+    aisle: a
+    bmc_addr: 10.0.110.22
+    ip_addr: 10.11.23.1
+    megapod: 3
+    rack: 10
+    slot: 34
+- a10u39m3:
+    aisle: a
+    bmc_addr: 10.0.110.24
+    ip_addr: 10.11.24.1
+    megapod: 3
+    rack: 10
+    slot: 39
+- a12u4m3:
+    aisle: a
+    bmc_addr: 10.0.112.10
+    ip_addr: 10.11.25.1
+    megapod: 3
+    rack: 12
+    slot: 4
+- a12u9m3:
+    aisle: a
+    bmc_addr: 10.0.112.12
+    ip_addr: 10.11.26.1
+    megapod: 3
+    rack: 12
+    slot: 9
+- a12u14m3:
+    aisle: a
+    bmc_addr: 10.0.112.14
+    ip_addr: 10.11.27.1
+    megapod: 3
+    rack: 12
+    slot: 14
+- a12u19m3:
+    aisle: a
+    bmc_addr: 10.0.112.16
+    ip_addr: 10.11.28.1
+    megapod: 3
+    rack: 12
+    slot: 19
+- a12u24m3:
+    aisle: a
+    bmc_addr: 10.0.112.18
+    ip_addr: 10.11.29.1
+    megapod: 3
+    rack: 12
+    slot: 24
+- a12u29m3:
+    aisle: a
+    bmc_addr: 10.0.112.20
+    ip_addr: 10.11.30.1
+    megapod: 3
+    rack: 12
+    slot: 29
+- a12u34m3:
+    aisle: a
+    bmc_addr: 10.0.112.22
+    ip_addr: 10.11.31.1
+    megapod: 3
+    rack: 12
+    slot: 34
+- a12u39m3:
+    aisle: a
+    bmc_addr: 10.0.112.24
+    ip_addr: 10.11.32.1
+    megapod: 3
+    rack: 12
+    slot: 39
+- b1u04m4:
+    aisle: b
+    bmc_addr: 10.0.113.10
+    ip_addr: 10.12.1.1
+    megapod: 4
+    rack: 1
+    slot: 4
+- b1u09m4:
+    aisle: b
+    bmc_addr: 10.0.113.12
+    ip_addr: 10.12.2.1
+    megapod: 4
+    rack: 1
+    slot: 9
+- b1u14m4:
+    aisle: b
+    bmc_addr: 10.0.113.14
+    ip_addr: 10.12.3.1
+    megapod: 4
+    rack: 1
+    slot: 14
+- b1u19m4:
+    aisle: b
+    bmc_addr: 10.0.113.16
+    ip_addr: 10.12.4.1
+    megapod: 4
+    rack: 1
+    slot: 19
+- b1u24m4:
+    aisle: b
+    bmc_addr: 10.0.113.18
+    ip_addr: 10.12.5.1
+    megapod: 4
+    rack: 1
+    slot: 24
+- b1u29m4:
+    aisle: b
+    bmc_addr: 10.0.113.20
+    ip_addr: 10.12.6.1
+    megapod: 4
+    rack: 1
+    slot: 29
+- b1u34m4:
+    aisle: b
+    bmc_addr: 10.0.113.22
+    ip_addr: 10.12.7.1
+    megapod: 4
+    rack: 1
+    slot: 34
+- b1u39m4:
+    aisle: b
+    bmc_addr: 10.0.113.24
+    ip_addr: 10.12.8.1
+    megapod: 4
+    rack: 1
+    slot: 39
+- b3u04m4:
+    aisle: b
+    bmc_addr: 10.0.115.10
+    ip_addr: 10.12.9.1
+    megapod: 4
+    rack: 3
+    slot: 4
+- b3u09m4:
+    aisle: b
+    bmc_addr: 10.0.115.12
+    ip_addr: 10.12.10.1
+    megapod: 4
+    rack: 3
+    slot: 9
+- b3u14m4:
+    aisle: b
+    bmc_addr: 10.0.115.14
+    ip_addr: 10.12.11.1
+    megapod: 4
+    rack: 3
+    slot: 14
+- b3u19m4:
+    aisle: b
+    bmc_addr: 10.0.115.16
+    ip_addr: 10.12.12.1
+    megapod: 4
+    rack: 3
+    slot: 19
+- b3u24m4:
+    aisle: b
+    bmc_addr: 10.0.115.18
+    ip_addr: 10.12.13.1
+    megapod: 4
+    rack: 3
+    slot: 24
+- b3u29m4:
+    aisle: b
+    bmc_addr: 10.0.115.20
+    ip_addr: 10.12.14.1
+    megapod: 4
+    rack: 3
+    slot: 29
+- b3u34m4:
+    aisle: b
+    bmc_addr: 10.0.115.22
+    ip_addr: 10.12.15.1
+    megapod: 4
+    rack: 3
+    slot: 34
+- b3u39m4:
+    aisle: b
+    bmc_addr: 10.0.115.24
+    ip_addr: 10.12.16.1
+    megapod: 4
+    rack: 3
+    slot: 39
+- b4u04m5:
+    aisle: b
+    bmc_addr: 10.0.116.10
+    ip_addr: 10.12.17.1
+    megapod: 5
+    rack: 4
+    slot: 4
+- b4u09m5:
+    aisle: b
+    bmc_addr: 10.0.116.12
+    ip_addr: 10.12.18.1
+    megapod: 5
+    rack: 4
+    slot: 9
+- b4u14m5:
+    aisle: b
+    bmc_addr: 10.0.116.14
+    ip_addr: 10.12.19.1
+    megapod: 5
+    rack: 4
+    slot: 14
+- b4u19m5:
+    aisle: b
+    bmc_addr: 10.0.116.16
+    ip_addr: 10.12.20.1
+    megapod: 5
+    rack: 4
+    slot: 19
+- b4u24m5:
+    aisle: b
+    bmc_addr: 10.0.116.18
+    ip_addr: 10.12.21.1
+    megapod: 5
+    rack: 4
+    slot: 24
+- b4u29m5:
+    aisle: b
+    bmc_addr: 10.0.116.20
+    ip_addr: 10.12.22.1
+    megapod: 5
+    rack: 4
+    slot: 29
+- b4u34m5:
+    aisle: b
+    bmc_addr: 10.0.116.22
+    ip_addr: 10.12.23.1
+    megapod: 5
+    rack: 4
+    slot: 34
+- b4u39m5:
+    aisle: b
+    bmc_addr: 10.0.116.24
+    ip_addr: 10.12.24.1
+    megapod: 5
+    rack: 4
+    slot: 39
+- b6u04m5:
+    aisle: b
+    bmc_addr: 10.0.118.10
+    ip_addr: 10.12.25.1
+    megapod: 5
+    rack: 6
+    slot: 4
+- b6u09m5:
+    aisle: b
+    bmc_addr: 10.0.118.12
+    ip_addr: 10.12.26.1
+    megapod: 5
+    rack: 6
+    slot: 9
+- b6u14m5:
+    aisle: b
+    bmc_addr: 10.0.118.14
+    ip_addr: 10.12.27.1
+    megapod: 5
+    rack: 6
+    slot: 14
+- b6u19m5:
+    aisle: b
+    bmc_addr: 10.0.118.16
+    ip_addr: 10.12.28.1
+    megapod: 5
+    rack: 6
+    slot: 19
+- b6u24m5:
+    aisle: b
+    bmc_addr: 10.0.118.18
+    ip_addr: 10.12.29.1
+    megapod: 5
+    rack: 6
+    slot: 24
+- b6u29m5:
+    aisle: b
+    bmc_addr: 10.0.118.20
+    ip_addr: 10.12.30.1
+    megapod: 5
+    rack: 6
+    slot: 29
+- b6u34m5:
+    aisle: b
+    bmc_addr: 10.0.118.22
+    ip_addr: 10.12.31.1
+    megapod: 5
+    rack: 6
+    slot: 34
+- b6u39m5:
+    aisle: b
+    bmc_addr: 10.0.118.24
+    ip_addr: 10.12.32.1
+    megapod: 5
+    rack: 6
+    slot: 39
+- b7u04m6:
+    aisle: b
+    bmc_addr: 10.0.119.10
+    ip_addr: 10.13.1.1
+    megapod: 6
+    rack: 7
+    slot: 4
+- b7u09m6:
+    aisle: b
+    bmc_addr: 10.0.119.12
+    ip_addr: 10.13.2.1
+    megapod: 6
+    rack: 7
+    slot: 9
+- b7u14m6:
+    aisle: b
+    bmc_addr: 10.0.119.14
+    ip_addr: 10.13.3.1
+    megapod: 6
+    rack: 7
+    slot: 14
+- b7u19m6:
+    aisle: b
+    bmc_addr: 10.0.119.16
+    ip_addr: 10.13.4.1
+    megapod: 6
+    rack: 7
+    slot: 19
+- b7u24m6:
+    aisle: b
+    bmc_addr: 10.0.119.18
+    ip_addr: 10.13.5.1
+    megapod: 6
+    rack: 7
+    slot: 24
+- b7u29m6:
+    aisle: b
+    bmc_addr: 10.0.119.20
+    ip_addr: 10.13.6.1
+    megapod: 6
+    rack: 7
+    slot: 29
+- b7u34m6:
+    aisle: b
+    bmc_addr: 10.0.119.22
+    ip_addr: 10.13.7.1
+    megapod: 6
+    rack: 7
+    slot: 34
+- b7u39m6:
+    aisle: b
+    bmc_addr: 10.0.119.24
+    ip_addr: 10.13.8.1
+    megapod: 6
+    rack: 7
+    slot: 39
+- b9u04m6:
+    aisle: b
+    bmc_addr: 10.0.121.10
+    ip_addr: 10.13.9.1
+    megapod: 6
+    rack: 9
+    slot: 4
+- b9u09m6:
+    aisle: b
+    bmc_addr: 10.0.121.12
+    ip_addr: 10.13.10.1
+    megapod: 6
+    rack: 9
+    slot: 9
+- b9u14m6:
+    aisle: b
+    bmc_addr: 10.0.121.14
+    ip_addr: 10.13.11.1
+    megapod: 6
+    rack: 9
+    slot: 14
+- b9u19m6:
+    aisle: b
+    bmc_addr: 10.0.121.16
+    ip_addr: 10.13.12.1
+    megapod: 6
+    rack: 9
+    slot: 19
+- b9u24m6:
+    aisle: b
+    bmc_addr: 10.0.121.18
+    ip_addr: 10.13.13.1
+    megapod: 6
+    rack: 9
+    slot: 24
+- b9u29m6:
+    aisle: b
+    bmc_addr: 10.0.121.20
+    ip_addr: 10.13.14.1
+    megapod: 6
+    rack: 9
+    slot: 29
+- b9u34m6:
+    aisle: b
+    bmc_addr: 10.0.121.22
+    ip_addr: 10.13.15.1
+    megapod: 6
+    rack: 9
+    slot: 34
+- b9u39m6:
+    aisle: b
+    bmc_addr: 10.0.121.24
+    ip_addr: 10.13.16.1
+    megapod: 6
+    rack: 9
+    slot: 39
+- b10u04m7:
+    aisle: b
+    bmc_addr: 10.0.122.10
+    ip_addr: 10.13.17.1
+    megapod: 7
+    rack: 10
+    slot: 4
+- b10u09m7:
+    aisle: b
+    bmc_addr: 10.0.122.12
+    ip_addr: 10.13.18.1
+    megapod: 7
+    rack: 10
+    slot: 9
+- b10u14m7:
+    aisle: b
+    bmc_addr: 10.0.122.14
+    ip_addr: 10.13.19.1
+    megapod: 7
+    rack: 10
+    slot: 14
+- b10u19m7:
+    aisle: b
+    bmc_addr: 10.0.122.16
+    ip_addr: 10.13.20.1
+    megapod: 7
+    rack: 10
+    slot: 19
+- b10u24m7:
+    aisle: b
+    bmc_addr: 10.0.122.18
+    ip_addr: 10.13.21.1
+    megapod: 7
+    rack: 10
+    slot: 24
+- b10u29m7:
+    aisle: b
+    bmc_addr: 10.0.122.20
+    ip_addr: 10.13.22.1
+    megapod: 7
+    rack: 10
+    slot: 29
+- b10u34m7:
+    aisle: b
+    bmc_addr: 10.0.122.22
+    ip_addr: 10.13.23.1
+    megapod: 7
+    rack: 10
+    slot: 34
+- b10u39m7:
+    aisle: b
+    bmc_addr: 10.0.122.24
+    ip_addr: 10.13.24.1
+    megapod: 7
+    rack: 10
+    slot: 39
+- b12u04m7:
+    aisle: b
+    bmc_addr: 10.0.124.10
+    ip_addr: 10.13.25.1
+    megapod: 7
+    rack: 12
+    slot: 4
+- b12u09m7:
+    aisle: b
+    bmc_addr: 10.0.124.12
+    ip_addr: 10.13.26.1
+    megapod: 7
+    rack: 12
+    slot: 9
+- b12u14m7:
+    aisle: b
+    bmc_addr: 10.0.124.14
+    ip_addr: 10.13.27.1
+    megapod: 7
+    rack: 12
+    slot: 14
+- b12u19m7:
+    aisle: b
+    bmc_addr: 10.0.124.16
+    ip_addr: 10.13.28.1
+    megapod: 7
+    rack: 12
+    slot: 19
+- b12u24m7:
+    aisle: b
+    bmc_addr: 10.0.124.18
+    ip_addr: 10.13.29.1
+    megapod: 7
+    rack: 12
+    slot: 24
+- b12u29m7:
+    aisle: b
+    bmc_addr: 10.0.124.20
+    ip_addr: 10.13.30.1
+    megapod: 7
+    rack: 12
+    slot: 29
+- b12u34m7:
+    aisle: b
+    bmc_addr: 10.0.124.22
+    ip_addr: 10.13.31.1
+    megapod: 7
+    rack: 12
+    slot: 34
+- b12u39m7:
+    aisle: b
+    bmc_addr: 10.0.124.24
+    ip_addr: 10.13.32.1
+    megapod: 7
+    rack: 12
+    slot: 39
+- c1u4m8:
+    aisle: c
+    bmc_addr: 10.0.125.10
+    ip_addr: 10.14.1.1
+    megapod: 8
+    rack: 1
+    slot: 4
+- c1u9m8:
+    aisle: c
+    bmc_addr: 10.0.125.12
+    ip_addr: 10.14.2.1
+    megapod: 8
+    rack: 1
+    slot: 9
+- c1u14m8:
+    aisle: c
+    bmc_addr: 10.0.125.14
+    ip_addr: 10.14.3.1
+    megapod: 8
+    rack: 1
+    slot: 14
+- c1u19m8:
+    aisle: c
+    bmc_addr: 10.0.125.16
+    ip_addr: 10.14.4.1
+    megapod: 8
+    rack: 1
+    slot: 19
+- c1u24m8:
+    aisle: c
+    bmc_addr: 10.0.125.18
+    ip_addr: 10.14.5.1
+    megapod: 8
+    rack: 1
+    slot: 24
+- c1u29m8:
+    aisle: c
+    bmc_addr: 10.0.125.20
+    ip_addr: 10.14.6.1
+    megapod: 8
+    rack: 1
+    slot: 29
+- c1u34m8:
+    aisle: c
+    bmc_addr: 10.0.125.22
+    ip_addr: 10.14.7.1
+    megapod: 8
+    rack: 1
+    slot: 34
+- c1u39m8:
+    aisle: c
+    bmc_addr: 10.0.125.24
+    ip_addr: 10.14.8.1
+    megapod: 8
+    rack: 1
+    slot: 39
+- c3u4m8:
+    aisle: c
+    bmc_addr: 10.0.127.10
+    ip_addr: 10.14.9.1
+    megapod: 8
+    rack: 3
+    slot: 4
+- c3u9m8:
+    aisle: c
+    bmc_addr: 10.0.127.12
+    ip_addr: 10.14.10.1
+    megapod: 8
+    rack: 3
+    slot: 9
+- c3u14m8:
+    aisle: c
+    bmc_addr: 10.0.127.14
+    ip_addr: 10.14.11.1
+    megapod: 8
+    rack: 3
+    slot: 14
+- c3u19m8:
+    aisle: c
+    bmc_addr: 10.0.127.16
+    ip_addr: 10.14.12.1
+    megapod: 8
+    rack: 3
+    slot: 19
+- c3u24m8:
+    aisle: c
+    bmc_addr: 10.0.127.18
+    ip_addr: 10.14.13.1
+    megapod: 8
+    rack: 3
+    slot: 24
+- c3u29m8:
+    aisle: c
+    bmc_addr: 10.0.127.20
+    ip_addr: 10.14.14.1
+    megapod: 8
+    rack: 3
+    slot: 29
+- c3u34m8:
+    aisle: c
+    bmc_addr: 10.0.127.22
+    ip_addr: 10.14.15.1
+    megapod: 8
+    rack: 3
+    slot: 34
+- c3u39m8:
+    aisle: c
+    bmc_addr: 10.0.127.24
+    ip_addr: 10.14.16.1
+    megapod: 8
+    rack: 3
+    slot: 39
+- c4u4m9:
+    aisle: c
+    bmc_addr: 10.0.128.10
+    ip_addr: 10.14.17.1
+    megapod: 9
+    rack: 4
+    slot: 4
+- c4u9m9:
+    aisle: c
+    bmc_addr: 10.0.128.12
+    ip_addr: 10.14.18.1
+    megapod: 9
+    rack: 4
+    slot: 9
+- c4u14m9:
+    aisle: c
+    bmc_addr: 10.0.128.14
+    ip_addr: 10.14.19.1
+    megapod: 9
+    rack: 4
+    slot: 14
+- c4u19m9:
+    aisle: c
+    bmc_addr: 10.0.128.16
+    ip_addr: 10.14.20.1
+    megapod: 9
+    rack: 4
+    slot: 19
+- c4u24m9:
+    aisle: c
+    bmc_addr: 10.0.128.18
+    ip_addr: 10.14.21.1
+    megapod: 9
+    rack: 4
+    slot: 24
+- c4u29m9:
+    aisle: c
+    bmc_addr: 10.0.128.20
+    ip_addr: 10.14.22.1
+    megapod: 9
+    rack: 4
+    slot: 29
+- c4u34m9:
+    aisle: c
+    bmc_addr: 10.0.128.22
+    ip_addr: 10.14.23.1
+    megapod: 9
+    rack: 4
+    slot: 34
+- c4u39m9:
+    aisle: c
+    bmc_addr: 10.0.128.24
+    ip_addr: 10.14.24.1
+    megapod: 9
+    rack: 4
+    slot: 39
+- c6u4m9:
+    aisle: c
+    bmc_addr: 10.0.130.10
+    ip_addr: 10.14.25.1
+    megapod: 9
+    rack: 6
+    slot: 4
+- c6u9m9:
+    aisle: c
+    bmc_addr: 10.0.130.12
+    ip_addr: 10.14.26.1
+    megapod: 9
+    rack: 6
+    slot: 9
+- c6u14m9:
+    aisle: c
+    bmc_addr: 10.0.130.14
+    ip_addr: 10.14.27.1
+    megapod: 9
+    rack: 6
+    slot: 14
+- c6u19m9:
+    aisle: c
+    bmc_addr: 10.0.130.16
+    ip_addr: 10.14.28.1
+    megapod: 9
+    rack: 6
+    slot: 19
+- c6u24m9:
+    aisle: c
+    bmc_addr: 10.0.130.18
+    ip_addr: 10.14.29.1
+    megapod: 9
+    rack: 6
+    slot: 24
+- c6u29m9:
+    aisle: c
+    bmc_addr: 10.0.130.20
+    ip_addr: 10.14.30.1
+    megapod: 9
+    rack: 6
+    slot: 29
+- c6u34m9:
+    aisle: c
+    bmc_addr: 10.0.130.22
+    ip_addr: 10.14.31.1
+    megapod: 9
+    rack: 6
+    slot: 34
+- c6u39m9:
+    aisle: c
+    bmc_addr: 10.0.130.24
+    ip_addr: 10.14.32.1
+    megapod: 9
+    rack: 6
+    slot: 39
+- c7u4m10:
+    aisle: c
+    bmc_addr: 10.0.131.10
+    ip_addr: 10.15.1.1
+    megapod: 10
+    rack: 7
+    slot: 4
+- c7u9m10:
+    aisle: c
+    bmc_addr: 10.0.131.12
+    ip_addr: 10.15.2.1
+    megapod: 10
+    rack: 7
+    slot: 9
+- c7u14m10:
+    aisle: c
+    bmc_addr: 10.0.131.14
+    ip_addr: 10.15.3.1
+    megapod: 10
+    rack: 7
+    slot: 14
+- c7u19m10:
+    aisle: c
+    bmc_addr: 10.0.131.16
+    ip_addr: 10.15.4.1
+    megapod: 10
+    rack: 7
+    slot: 19
+- c7u24m10:
+    aisle: c
+    bmc_addr: 10.0.131.18
+    ip_addr: 10.15.5.1
+    megapod: 10
+    rack: 7
+    slot: 24
+- c7u29m10:
+    aisle: c
+    bmc_addr: 10.0.131.20
+    ip_addr: 10.15.6.1
+    megapod: 10
+    rack: 7
+    slot: 29
+- c7u34m10:
+    aisle: c
+    bmc_addr: 10.0.131.22
+    ip_addr: 10.15.7.1
+    megapod: 10
+    rack: 7
+    slot: 34
+- c7u39m10:
+    aisle: c
+    bmc_addr: 10.0.131.24
+    ip_addr: 10.15.8.1
+    megapod: 10
+    rack: 7
+    slot: 39
+- c9u4m10:
+    aisle: c
+    bmc_addr: 10.0.133.10
+    ip_addr: 10.15.9.1
+    megapod: 10
+    rack: 9
+    slot: 4
+- c9u9m10:
+    aisle: c
+    bmc_addr: 10.0.133.12
+    ip_addr: 10.15.10.1
+    megapod: 10
+    rack: 9
+    slot: 9
+- c9u14m10:
+    aisle: c
+    bmc_addr: 10.0.133.14
+    ip_addr: 10.15.11.1
+    megapod: 10
+    rack: 9
+    slot: 14
+- c9u19m10:
+    aisle: c
+    bmc_addr: 10.0.133.16
+    ip_addr: 10.15.12.1
+    megapod: 10
+    rack: 9
+    slot: 19
+- c9u24m10:
+    aisle: c
+    bmc_addr: 10.0.133.18
+    ip_addr: 10.15.13.1
+    megapod: 10
+    rack: 9
+    slot: 24
+- c9u29m10:
+    aisle: c
+    bmc_addr: 10.0.133.20
+    ip_addr: 10.15.14.1
+    megapod: 10
+    rack: 9
+    slot: 29
+- c9u34m10:
+    aisle: c
+    bmc_addr: 10.0.133.22
+    ip_addr: 10.15.15.1
+    megapod: 10
+    rack: 9
+    slot: 34
+- c9u39m10:
+    aisle: c
+    bmc_addr: 10.0.133.24
+    ip_addr: 10.15.16.1
+    megapod: 10
+    rack: 9
+    slot: 39
+- c10u4m11:
+    aisle: c
+    bmc_addr: 10.0.134.10
+    ip_addr: 10.15.17.1
+    megapod: 11
+    rack: 10
+    slot: 4
+- c10u9m11:
+    aisle: c
+    bmc_addr: 10.0.134.12
+    ip_addr: 10.15.18.1
+    megapod: 11
+    rack: 10
+    slot: 9
+- c10u14m11:
+    aisle: c
+    bmc_addr: 10.0.134.14
+    ip_addr: 10.15.19.1
+    megapod: 11
+    rack: 10
+    slot: 14
+- c10u19m11:
+    aisle: c
+    bmc_addr: 10.0.134.16
+    ip_addr: 10.15.20.1
+    megapod: 11
+    rack: 10
+    slot: 19
+- c10u24m11:
+    aisle: c
+    bmc_addr: 10.0.134.18
+    ip_addr: 10.15.21.1
+    megapod: 11
+    rack: 10
+    slot: 24
+- c10u29m11:
+    aisle: c
+    bmc_addr: 10.0.134.20
+    ip_addr: 10.15.22.1
+    megapod: 11
+    rack: 10
+    slot: 29
+- c10u34m11:
+    aisle: c
+    bmc_addr: 10.0.134.22
+    ip_addr: 10.15.23.1
+    megapod: 11
+    rack: 10
+    slot: 34
+- c10u39m11:
+    aisle: c
+    bmc_addr: 10.0.134.24
+    ip_addr: 10.15.24.1
+    megapod: 11
+    rack: 10
+    slot: 39
+- c12u4m11:
+    aisle: c
+    bmc_addr: 10.0.136.10
+    ip_addr: 10.15.25.1
+    megapod: 11
+    rack: 12
+    slot: 4
+- c12u9m11:
+    aisle: c
+    bmc_addr: 10.0.136.12
+    ip_addr: 10.15.26.1
+    megapod: 11
+    rack: 12
+    slot: 9
+- c12u14m11:
+    aisle: c
+    bmc_addr: 10.0.136.14
+    ip_addr: 10.15.27.1
+    megapod: 11
+    rack: 12
+    slot: 14
+- c12u19m11:
+    aisle: c
+    bmc_addr: 10.0.136.16
+    ip_addr: 10.15.28.1
+    megapod: 11
+    rack: 12
+    slot: 19
+- c12u24m11:
+    aisle: c
+    bmc_addr: 10.0.136.18
+    ip_addr: 10.15.29.1
+    megapod: 11
+    rack: 12
+    slot: 24
+- c12u29m11:
+    aisle: c
+    bmc_addr: 10.0.136.20
+    ip_addr: 10.15.30.1
+    megapod: 11
+    rack: 12
+    slot: 29
+- c12u34m11:
+    aisle: c
+    bmc_addr: 10.0.136.22
+    ip_addr: 10.15.31.1
+    megapod: 11
+    rack: 12
+    slot: 34
+- c12u39m11:
+    aisle: c
+    bmc_addr: 10.0.136.24
+    ip_addr: 10.15.32.1
+    megapod: 11
+    rack: 12
+    slot: 39
+- d1u4m12:
+    aisle: d
+    bmc_addr: 10.0.137.10
+    ip_addr: 10.16.1.1
+    megapod: 12
+    rack: 1
+    slot: 4
+- d1u9m12:
+    aisle: d
+    bmc_addr: 10.0.137.12
+    ip_addr: 10.16.2.1
+    megapod: 12
+    rack: 1
+    slot: 9
+- d1u14m12:
+    aisle: d
+    bmc_addr: 10.0.137.14
+    ip_addr: 10.16.3.1
+    megapod: 12
+    rack: 1
+    slot: 14
+- d1u19m12:
+    aisle: d
+    bmc_addr: 10.0.137.16
+    ip_addr: 10.16.4.1
+    megapod: 12
+    rack: 1
+    slot: 19
+- d1u24m12:
+    aisle: d
+    bmc_addr: 10.0.137.18
+    ip_addr: 10.16.5.1
+    megapod: 12
+    rack: 1
+    slot: 24
+- d1u29m12:
+    aisle: d
+    bmc_addr: 10.0.137.20
+    ip_addr: 10.16.6.1
+    megapod: 12
+    rack: 1
+    slot: 29
+- d1u34m12:
+    aisle: d
+    bmc_addr: 10.0.137.22
+    ip_addr: 10.16.7.1
+    megapod: 12
+    rack: 1
+    slot: 34
+- d1u39m12:
+    aisle: d
+    bmc_addr: 10.0.137.24
+    ip_addr: 10.16.8.1
+    megapod: 12
+    rack: 1
+    slot: 39
+- d3u4m12:
+    aisle: d
+    bmc_addr: 10.0.139.10
+    ip_addr: 10.16.9.1
+    megapod: 12
+    rack: 3
+    slot: 4
+- d3u9m12:
+    aisle: d
+    bmc_addr: 10.0.139.12
+    ip_addr: 10.16.10.1
+    megapod: 12
+    rack: 3
+    slot: 9
+- d3u14m12:
+    aisle: d
+    bmc_addr: 10.0.139.14
+    ip_addr: 10.16.11.1
+    megapod: 12
+    rack: 3
+    slot: 14
+- d3u19m12:
+    aisle: d
+    bmc_addr: 10.0.139.16
+    ip_addr: 10.16.12.1
+    megapod: 12
+    rack: 3
+    slot: 19
+- d3u24m12:
+    aisle: d
+    bmc_addr: 10.0.139.18
+    ip_addr: 10.16.13.1
+    megapod: 12
+    rack: 3
+    slot: 24
+- d3u29m12:
+    aisle: d
+    bmc_addr: 10.0.139.20
+    ip_addr: 10.16.14.1
+    megapod: 12
+    rack: 3
+    slot: 29
+- d3u34m12:
+    aisle: d
+    bmc_addr: 10.0.139.22
+    ip_addr: 10.16.15.1
+    megapod: 12
+    rack: 3
+    slot: 34
+- d3u39m12:
+    aisle: d
+    bmc_addr: 10.0.139.24
+    ip_addr: 10.16.16.1
+    megapod: 12
+    rack: 3
+    slot: 39
+- d4u4m13:
+    aisle: d
+    bmc_addr: 10.0.140.10
+    ip_addr: 10.16.17.1
+    megapod: 13
+    rack: 4
+    slot: 4
+- d4u9m13:
+    aisle: d
+    bmc_addr: 10.0.140.12
+    ip_addr: 10.16.18.1
+    megapod: 13
+    rack: 4
+    slot: 9
+- d4u14m13:
+    aisle: d
+    bmc_addr: 10.0.140.14
+    ip_addr: 10.16.19.1
+    megapod: 13
+    rack: 4
+    slot: 14
+- d4u19m13:
+    aisle: d
+    bmc_addr: 10.0.140.16
+    ip_addr: 10.16.20.1
+    megapod: 13
+    rack: 4
+    slot: 19
+- d4u24m13:
+    aisle: d
+    bmc_addr: 10.0.140.18
+    ip_addr: 10.16.21.1
+    megapod: 13
+    rack: 4
+    slot: 24
+- d4u29m13:
+    aisle: d
+    bmc_addr: 10.0.140.20
+    ip_addr: 10.16.22.1
+    megapod: 13
+    rack: 4
+    slot: 29
+- d4u34m13:
+    aisle: d
+    bmc_addr: 10.0.140.22
+    ip_addr: 10.16.23.1
+    megapod: 13
+    rack: 4
+    slot: 34
+- d4u39m13:
+    aisle: d
+    bmc_addr: 10.0.140.24
+    ip_addr: 10.16.24.1
+    megapod: 13
+    rack: 4
+    slot: 39
+- d6u4m13:
+    aisle: d
+    bmc_addr: 10.0.142.10
+    ip_addr: 10.16.25.1
+    megapod: 13
+    rack: 6
+    slot: 4
+- d6u9m13:
+    aisle: d
+    bmc_addr: 10.0.142.12
+    ip_addr: 10.16.26.1
+    megapod: 13
+    rack: 6
+    slot: 9
+- d6u14m13:
+    aisle: d
+    bmc_addr: 10.0.142.14
+    ip_addr: 10.16.27.1
+    megapod: 13
+    rack: 6
+    slot: 14
+- d6u19m13:
+    aisle: d
+    bmc_addr: 10.0.142.16
+    ip_addr: 10.16.28.1
+    megapod: 13
+    rack: 6
+    slot: 19
+- d6u24m13:
+    aisle: d
+    bmc_addr: 10.0.142.18
+    ip_addr: 10.16.29.1
+    megapod: 13
+    rack: 6
+    slot: 24
+- d6u29m13:
+    aisle: d
+    bmc_addr: 10.0.142.20
+    ip_addr: 10.16.30.1
+    megapod: 13
+    rack: 6
+    slot: 29
+- d6u34m13:
+    aisle: d
+    bmc_addr: 10.0.142.22
+    ip_addr: 10.16.31.1
+    megapod: 13
+    rack: 6
+    slot: 34
+- d6u39m13:
+    aisle: d
+    bmc_addr: 10.0.142.24
+    ip_addr: 10.16.32.1
+    megapod: 13
+    rack: 6
+    slot: 39
+- d7u4m14:
+    aisle: d
+    bmc_addr: 10.0.143.10
+    ip_addr: 10.17.1.1
+    megapod: 14
+    rack: 7
+    slot: 4
+- d7u9m14:
+    aisle: d
+    bmc_addr: 10.0.143.12
+    ip_addr: 10.17.2.1
+    megapod: 14
+    rack: 7
+    slot: 9
+- d7u14m14:
+    aisle: d
+    bmc_addr: 10.0.143.14
+    ip_addr: 10.17.3.1
+    megapod: 14
+    rack: 7
+    slot: 14
+- d7u19m14:
+    aisle: d
+    bmc_addr: 10.0.143.16
+    ip_addr: 10.17.4.1
+    megapod: 14
+    rack: 7
+    slot: 19
+- d7u24m14:
+    aisle: d
+    bmc_addr: 10.0.143.18
+    ip_addr: 10.17.5.1
+    megapod: 14
+    rack: 7
+    slot: 24
+- d7u29m14:
+    aisle: d
+    bmc_addr: 10.0.143.20
+    ip_addr: 10.17.6.1
+    megapod: 14
+    rack: 7
+    slot: 29
+- d7u34m14:
+    aisle: d
+    bmc_addr: 10.0.143.22
+    ip_addr: 10.17.7.1
+    megapod: 14
+    rack: 7
+    slot: 34
+- d7u39m14:
+    aisle: d
+    bmc_addr: 10.0.143.24
+    ip_addr: 10.17.8.1
+    megapod: 14
+    rack: 7
+    slot: 39
+- d9u4m14:
+    aisle: d
+    bmc_addr: 10.0.145.10
+    ip_addr: 10.17.9.1
+    megapod: 14
+    rack: 9
+    slot: 4
+- d9u9m14:
+    aisle: d
+    bmc_addr: 10.0.145.12
+    ip_addr: 10.17.10.1
+    megapod: 14
+    rack: 9
+    slot: 9
+- d9u14m14:
+    aisle: d
+    bmc_addr: 10.0.145.14
+    ip_addr: 10.17.11.1
+    megapod: 14
+    rack: 9
+    slot: 14
+- d9u19m14:
+    aisle: d
+    bmc_addr: 10.0.145.16
+    ip_addr: 10.17.12.1
+    megapod: 14
+    rack: 9
+    slot: 19
+- d9u24m14:
+    aisle: d
+    bmc_addr: 10.0.145.18
+    ip_addr: 10.17.13.1
+    megapod: 14
+    rack: 9
+    slot: 24
+- d9u29m14:
+    aisle: d
+    bmc_addr: 10.0.145.20
+    ip_addr: 10.17.14.1
+    megapod: 14
+    rack: 9
+    slot: 29
+- d9u34m14:
+    aisle: d
+    bmc_addr: 10.0.145.22
+    ip_addr: 10.17.15.1
+    megapod: 14
+    rack: 9
+    slot: 34
+- d9u39m14:
+    aisle: d
+    bmc_addr: 10.0.145.24
+    ip_addr: 10.17.16.1
+    megapod: 14
+    rack: 9
+    slot: 39
+- d10u4m15:
+    aisle: d
+    bmc_addr: 10.0.146.10
+    ip_addr: 10.17.17.1
+    megapod: 15
+    rack: 10
+    slot: 4
+- d10u9m15:
+    aisle: d
+    bmc_addr: 10.0.146.12
+    ip_addr: 10.17.18.1
+    megapod: 15
+    rack: 10
+    slot: 9
+- d10u14m15:
+    aisle: d
+    bmc_addr: 10.0.146.14
+    ip_addr: 10.17.19.1
+    megapod: 15
+    rack: 10
+    slot: 14
+- d10u19m15:
+    aisle: d
+    bmc_addr: 10.0.146.16
+    ip_addr: 10.17.20.1
+    megapod: 15
+    rack: 10
+    slot: 19
+- d10u24m15:
+    aisle: d
+    bmc_addr: 10.0.146.18
+    ip_addr: 10.17.21.1
+    megapod: 15
+    rack: 10
+    slot: 24
+- d10u29m15:
+    aisle: d
+    bmc_addr: 10.0.146.20
+    ip_addr: 10.17.22.1
+    megapod: 15
+    rack: 10
+    slot: 29
+- d10u34m15:
+    aisle: d
+    bmc_addr: 10.0.146.22
+    ip_addr: 10.17.23.1
+    megapod: 15
+    rack: 10
+    slot: 34
+- d10u39m15:
+    aisle: d
+    bmc_addr: 10.0.146.24
+    ip_addr: 10.17.24.1
+    megapod: 15
+    rack: 10
+    slot: 39
+- d12u4m15:
+    aisle: d
+    bmc_addr: 10.0.148.10
+    ip_addr: 10.17.25.1
+    megapod: 15
+    rack: 12
+    slot: 4
+- d12u9m15:
+    aisle: d
+    bmc_addr: 10.0.148.12
+    ip_addr: 10.17.26.1
+    megapod: 15
+    rack: 12
+    slot: 9
+- d12u14m15:
+    aisle: d
+    bmc_addr: 10.0.148.14
+    ip_addr: 10.17.27.1
+    megapod: 15
+    rack: 12
+    slot: 14
+- d12u19m15:
+    aisle: d
+    bmc_addr: 10.0.148.16
+    ip_addr: 10.17.28.1
+    megapod: 15
+    rack: 12
+    slot: 19
+- d12u24m15:
+    aisle: d
+    bmc_addr: 10.0.148.18
+    ip_addr: 10.17.29.1
+    megapod: 15
+    rack: 12
+    slot: 24
+- d12u29m15:
+    aisle: d
+    bmc_addr: 10.0.148.20
+    ip_addr: 10.17.30.1
+    megapod: 15
+    rack: 12
+    slot: 29
+- d12u34m15:
+    aisle: d
+    bmc_addr: 10.0.148.22
+    ip_addr: 10.17.31.1
+    megapod: 15
+    rack: 12
+    slot: 34
+- d12u39m15:
+    aisle: d
+    bmc_addr: 10.0.148.24
+    ip_addr: 10.17.32.1
+    megapod: 15
+    rack: 12
+    slot: 39

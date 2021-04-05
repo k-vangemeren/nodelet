@@ -1,0 +1,2874 @@
+all:
+  hosts:
+    a1l:
+      ansible_ssh_host: 10.0.101.6
+    a1r:
+      ansible_ssh_host: 10.0.101.7
+    a1u1:
+      ansible_ssh_host: 10.0.101.10
+    a1u4m0:
+      ansible_host: 10.10.1.1
+      ip: 10.10.1.1
+      access_ip: 10.10.1.1
+    a1u6:
+      ansible_ssh_host: 10.0.101.12
+    a1u9m0:
+      ansible_host: 10.10.2.1
+      ip: 10.10.2.1
+      access_ip: 10.10.2.1
+    a1u11:
+      ansible_ssh_host: 10.0.101.14
+    a1u14m0:
+      ansible_host: 10.10.3.1
+      ip: 10.10.3.1
+      access_ip: 10.10.3.1
+    a1u16:
+      ansible_ssh_host: 10.0.101.16
+    a1u19m0:
+      ansible_host: 10.10.4.1
+      ip: 10.10.4.1
+      access_ip: 10.10.4.1
+    a1u21:
+      ansible_ssh_host: 10.0.101.18
+    a1u24m0:
+      ansible_host: 10.10.5.1
+      ip: 10.10.5.1
+      access_ip: 10.10.5.1
+    a1u26:
+      ansible_ssh_host: 10.0.101.20
+    a1u29m0:
+      ansible_host: 10.10.6.1
+      ip: 10.10.6.1
+      access_ip: 10.10.6.1
+    a1u31:
+      ansible_ssh_host: 10.0.101.22
+    a1u34m0:
+      ansible_host: 10.10.7.1
+      ip: 10.10.7.1
+      access_ip: 10.10.7.1
+    a1u36:
+      ansible_ssh_host: 10.0.101.24
+    a1u39m0:
+      ansible_host: 10.10.8.1
+      ip: 10.10.8.1
+      access_ip: 10.10.8.1
+    a1u41:
+      ansible_ssh_host: 10.0.0.101
+    a2l:
+      ansible_ssh_host: 10.0.102.6
+    a2r:
+      ansible_ssh_host: 10.0.102.7
+    a2u8:
+      ansible_ssh_host: 10.0.102.10
+    a2u11:
+      ansible_ssh_host: 10.0.102.11
+    a2u14:
+      ansible_ssh_host: 10.0.102.12
+    a2u17:
+      ansible_ssh_host: 10.0.102.13
+    a2u20:
+      ansible_ssh_host: 10.0.102.14
+    a2u23:
+      ansible_ssh_host: 10.0.102.15
+    a2u26:
+      ansible_ssh_host: 10.0.102.16
+    a2u29:
+      ansible_ssh_host: 10.0.102.17
+    a2u32:
+      ansible_ssh_host: 10.0.102.18
+    a2u35:
+      ansible_ssh_host: 10.0.102.19
+    a2u40:
+      ansible_ssh_host: 10.0.0.174
+    a2u42:
+      ansible_ssh_host: 10.0.0.102
+    a3l:
+      ansible_ssh_host: 10.0.103.6
+    a3r:
+      ansible_ssh_host: 10.0.103.7
+    a3u1:
+      ansible_ssh_host: 10.0.103.10
+    a3u4m0:
+      ansible_host: 10.10.9.1
+      ip: 10.10.9.1
+      access_ip: 10.10.9.1
+    a3u6:
+      ansible_ssh_host: 10.0.103.12
+    a3u9m0:
+      ansible_host: 10.10.10.1
+      ip: 10.10.10.1
+      access_ip: 10.10.10.1
+    a3u11:
+      ansible_ssh_host: 10.0.103.14
+    a3u14m0:
+      ansible_host: 10.10.11.1
+      ip: 10.10.11.1
+      access_ip: 10.10.11.1
+    a3u16:
+      ansible_ssh_host: 10.0.103.16
+    a3u19m0:
+      ansible_host: 10.10.12.1
+      ip: 10.10.12.1
+      access_ip: 10.10.12.1
+    a3u21:
+      ansible_ssh_host: 10.0.103.18
+    a3u24m0:
+      ansible_host: 10.10.13.1
+      ip: 10.10.13.1
+      access_ip: 10.10.13.1
+    a3u26:
+      ansible_ssh_host: 10.0.103.20
+    a3u29m0:
+      ansible_host: 10.10.14.1
+      ip: 10.10.14.1
+      access_ip: 10.10.14.1
+    a3u31:
+      ansible_ssh_host: 10.0.103.22
+    a3u34m0:
+      ansible_host: 10.10.15.1
+      ip: 10.10.15.1
+      access_ip: 10.10.15.1
+    a3u36:
+      ansible_ssh_host: 10.0.103.24
+    a3u39m0:
+      ansible_host: 10.10.16.1
+      ip: 10.10.16.1
+      access_ip: 10.10.16.1
+    a3u41:
+      ansible_ssh_host: 10.0.0.103
+    a4l:
+      ansible_ssh_host: 10.0.104.6
+    a4r:
+      ansible_ssh_host: 10.0.104.7
+    a4u1:
+      ansible_ssh_host: 10.0.104.10
+    a4u4m1:
+      ansible_host: 10.10.17.1
+      ip: 10.10.17.1
+      access_ip: 10.10.17.1
+    a4u6:
+      ansible_ssh_host: 10.0.104.12
+    a4u9m1:
+      ansible_host: 10.10.18.1
+      ip: 10.10.18.1
+      access_ip: 10.10.18.1
+    a4u11:
+      ansible_ssh_host: 10.0.104.14
+    a4u14m1:
+      ansible_host: 10.10.19.1
+      ip: 10.10.19.1
+      access_ip: 10.10.19.1
+    a4u16:
+      ansible_ssh_host: 10.0.104.16
+    a4u19m1:
+      ansible_host: 10.10.20.1
+      ip: 10.10.20.1
+      access_ip: 10.10.20.1
+    a4u21:
+      ansible_ssh_host: 10.0.104.18
+    a4u24m1:
+      ansible_host: 10.10.21.1
+      ip: 10.10.21.1
+      access_ip: 10.10.21.1
+    a4u26:
+      ansible_ssh_host: 10.0.104.20
+    a4u29m1:
+      ansible_host: 10.10.22.1
+      ip: 10.10.22.1
+      access_ip: 10.10.22.1
+    a4u31:
+      ansible_ssh_host: 10.0.104.22
+    a4u34m1:
+      ansible_host: 10.10.23.1
+      ip: 10.10.23.1
+      access_ip: 10.10.23.1
+    a4u36:
+      ansible_ssh_host: 10.0.104.24
+    a4u39m1:
+      ansible_host: 10.10.24.1
+      ip: 10.10.24.1
+      access_ip: 10.10.24.1
+    a4u41:
+      ansible_ssh_host: 10.0.0.104
+    a5l:
+      ansible_ssh_host: 10.0.105.6
+    a5r:
+      ansible_ssh_host: 10.0.105.7
+    a5u8:
+      ansible_ssh_host: 10.0.105.10
+    a5u11:
+      ansible_ssh_host: 10.0.105.11
+    a5u14:
+      ansible_ssh_host: 10.0.105.12
+    a5u17:
+      ansible_ssh_host: 10.0.105.13
+    a5u20:
+      ansible_ssh_host: 10.0.105.14
+    a5u23:
+      ansible_ssh_host: 10.0.105.15
+    a5u26:
+      ansible_ssh_host: 10.0.105.16
+    a5u29:
+      ansible_ssh_host: 10.0.105.17
+    a5u32:
+      ansible_ssh_host: 10.0.105.18
+    a5u35:
+      ansible_ssh_host: 10.0.105.19
+    a5u40:
+      ansible_ssh_host: 10.0.0.175
+    a5u42:
+      ansible_ssh_host: 10.0.0.105
+    a6l:
+      ansible_ssh_host: 10.0.106.6
+    a6r:
+      ansible_ssh_host: 10.0.106.7
+    a6u1:
+      ansible_ssh_host: 10.0.106.10
+    a6u4m1:
+      ansible_host: 10.10.25.1
+      ip: 10.10.25.1
+      access_ip: 10.10.25.1
+    a6u6:
+      ansible_ssh_host: 10.0.106.12
+    a6u9m1:
+      ansible_host: 10.10.26.1
+      ip: 10.10.26.1
+      access_ip: 10.10.26.1
+    a6u11:
+      ansible_ssh_host: 10.0.106.14
+    a6u14m1:
+      ansible_host: 10.10.27.1
+      ip: 10.10.27.1
+      access_ip: 10.10.27.1
+    a6u16:
+      ansible_ssh_host: 10.0.106.16
+    a6u19m1:
+      ansible_host: 10.10.28.1
+      ip: 10.10.28.1
+      access_ip: 10.10.28.1
+    a6u21:
+      ansible_ssh_host: 10.0.106.18
+    a6u24m1:
+      ansible_host: 10.10.29.1
+      ip: 10.10.29.1
+      access_ip: 10.10.29.1
+    a6u26:
+      ansible_ssh_host: 10.0.106.20
+    a6u29m1:
+      ansible_host: 10.10.30.1
+      ip: 10.10.30.1
+      access_ip: 10.10.30.1
+    a6u31:
+      ansible_ssh_host: 10.0.106.22
+    a6u34m1:
+      ansible_host: 10.10.31.1
+      ip: 10.10.31.1
+      access_ip: 10.10.31.1
+    a6u36:
+      ansible_ssh_host: 10.0.106.24
+    a6u39m1:
+      ansible_host: 10.10.32.1
+      ip: 10.10.32.1
+      access_ip: 10.10.32.1
+    a6u41:
+      ansible_ssh_host: 10.0.0.106
+    a7l:
+      ansible_ssh_host: 10.0.107.6
+    a7r:
+      ansible_ssh_host: 10.0.107.7
+    a7u1:
+      ansible_ssh_host: 10.0.107.10
+    a7u4m2:
+      ansible_host: 10.11.1.1
+      ip: 10.11.1.1
+      access_ip: 10.11.1.1
+    a7u6:
+      ansible_ssh_host: 10.0.107.12
+    a7u9m2:
+      ansible_host: 10.11.2.1
+      ip: 10.11.2.1
+      access_ip: 10.11.2.1
+    a7u11:
+      ansible_ssh_host: 10.0.107.14
+    a7u14m2:
+      ansible_host: 10.11.3.1
+      ip: 10.11.3.1
+      access_ip: 10.11.3.1
+    a7u16:
+      ansible_ssh_host: 10.0.107.16
+    a7u19m2:
+      ansible_host: 10.11.4.1
+      ip: 10.11.4.1
+      access_ip: 10.11.4.1
+    a7u21:
+      ansible_ssh_host: 10.0.107.18
+    a7u24m2:
+      ansible_host: 10.11.5.1
+      ip: 10.11.5.1
+      access_ip: 10.11.5.1
+    a7u26:
+      ansible_ssh_host: 10.0.107.20
+    a7u29m2:
+      ansible_host: 10.11.6.1
+      ip: 10.11.6.1
+      access_ip: 10.11.6.1
+    a7u31:
+      ansible_ssh_host: 10.0.107.22
+    a7u34m2:
+      ansible_host: 10.11.7.1
+      ip: 10.11.7.1
+      access_ip: 10.11.7.1
+    a7u36:
+      ansible_ssh_host: 10.0.107.24
+    a7u39m2:
+      ansible_host: 10.11.8.1
+      ip: 10.11.8.1
+      access_ip: 10.11.8.1
+    a7u41:
+      ansible_ssh_host: 10.0.0.107
+    a8l:
+      ansible_ssh_host: 10.0.108.6
+    a8r:
+      ansible_ssh_host: 10.0.108.7
+    a8u8:
+      ansible_ssh_host: 10.0.108.10
+    a8u11:
+      ansible_ssh_host: 10.0.108.11
+    a8u14:
+      ansible_ssh_host: 10.0.108.12
+    a8u17:
+      ansible_ssh_host: 10.0.108.13
+    a8u20:
+      ansible_ssh_host: 10.0.108.14
+    a8u23:
+      ansible_ssh_host: 10.0.108.15
+    a8u26:
+      ansible_ssh_host: 10.0.108.16
+    a8u29:
+      ansible_ssh_host: 10.0.108.17
+    a8u32:
+      ansible_ssh_host: 10.0.108.18
+    a8u35:
+      ansible_ssh_host: 10.0.108.19
+    a8u40:
+      ansible_ssh_host: 10.0.0.176
+    a8u42:
+      ansible_ssh_host: 10.0.0.108
+    a9l:
+      ansible_ssh_host: 10.0.109.6
+    a9r:
+      ansible_ssh_host: 10.0.109.7
+    a9u1:
+      ansible_ssh_host: 10.0.109.10
+    a9u4m2:
+      ansible_host: 10.11.9.1
+      ip: 10.11.9.1
+      access_ip: 10.11.9.1
+    a9u6:
+      ansible_ssh_host: 10.0.109.12
+    a9u9m2:
+      ansible_host: 10.11.10.1
+      ip: 10.11.10.1
+      access_ip: 10.11.10.1
+    a9u11:
+      ansible_ssh_host: 10.0.109.14
+    a9u14m2:
+      ansible_host: 10.11.11.1
+      ip: 10.11.11.1
+      access_ip: 10.11.11.1
+    a9u16:
+      ansible_ssh_host: 10.0.109.16
+    a9u19m2:
+      ansible_host: 10.11.12.1
+      ip: 10.11.12.1
+      access_ip: 10.11.12.1
+    a9u21:
+      ansible_ssh_host: 10.0.109.18
+    a9u24m2:
+      ansible_host: 10.11.13.1
+      ip: 10.11.13.1
+      access_ip: 10.11.13.1
+    a9u26:
+      ansible_ssh_host: 10.0.109.20
+    a9u29m2:
+      ansible_host: 10.11.14.1
+      ip: 10.11.14.1
+      access_ip: 10.11.14.1
+    a9u31:
+      ansible_ssh_host: 10.0.109.22
+    a9u34m2:
+      ansible_host: 10.11.15.1
+      ip: 10.11.15.1
+      access_ip: 10.11.15.1
+    a9u36:
+      ansible_ssh_host: 10.0.109.24
+    a9u39m2:
+      ansible_host: 10.11.16.1
+      ip: 10.11.16.1
+      access_ip: 10.11.16.1
+    a9u41:
+      ansible_ssh_host: 10.0.0.109
+    a10l:
+      ansible_ssh_host: 10.0.110.6
+    a10r:
+      ansible_ssh_host: 10.0.110.7
+    a10u1:
+      ansible_ssh_host: 10.0.110.10
+    a10u4m3:
+      ansible_host: 10.11.17.1
+      ip: 10.11.17.1
+      access_ip: 10.11.17.1
+    a10u6:
+      ansible_ssh_host: 10.0.110.12
+    a10u9m3:
+      ansible_host: 10.11.18.1
+      ip: 10.11.18.1
+      access_ip: 10.11.18.1
+    a10u11:
+      ansible_ssh_host: 10.0.110.14
+    a10u14m3:
+      ansible_host: 10.11.19.1
+      ip: 10.11.19.1
+      access_ip: 10.11.19.1
+    a10u16:
+      ansible_ssh_host: 10.0.110.16
+    a10u19m3:
+      ansible_host: 10.11.20.1
+      ip: 10.11.20.1
+      access_ip: 10.11.20.1
+    a10u21:
+      ansible_ssh_host: 10.0.110.18
+    a10u24m3:
+      ansible_host: 10.11.21.1
+      ip: 10.11.21.1
+      access_ip: 10.11.21.1
+    a10u26:
+      ansible_ssh_host: 10.0.110.20
+    a10u29m3:
+      ansible_host: 10.11.22.1
+      ip: 10.11.22.1
+      access_ip: 10.11.22.1
+    a10u31:
+      ansible_ssh_host: 10.0.110.22
+    a10u34m3:
+      ansible_host: 10.11.23.1
+      ip: 10.11.23.1
+      access_ip: 10.11.23.1
+    a10u36:
+      ansible_ssh_host: 10.0.110.24
+    a10u39m3:
+      ansible_host: 10.11.24.1
+      ip: 10.11.24.1
+      access_ip: 10.11.24.1
+    a10u41:
+      ansible_ssh_host: 10.0.0.110
+    a11l:
+      ansible_ssh_host: 10.0.111.6
+    a11r:
+      ansible_ssh_host: 10.0.111.7
+    a11u8:
+      ansible_ssh_host: 10.0.111.10
+    a11u11:
+      ansible_ssh_host: 10.0.111.11
+    a11u14:
+      ansible_ssh_host: 10.0.111.12
+    a11u17:
+      ansible_ssh_host: 10.0.111.13
+    a11u20:
+      ansible_ssh_host: 10.0.111.14
+    a11u23:
+      ansible_ssh_host: 10.0.111.15
+    a11u26:
+      ansible_ssh_host: 10.0.111.16
+    a11u29:
+      ansible_ssh_host: 10.0.111.17
+    a11u32:
+      ansible_ssh_host: 10.0.111.18
+    a11u35:
+      ansible_ssh_host: 10.0.111.19
+    a11u40:
+      ansible_ssh_host: 10.0.0.177
+    a11u42:
+      ansible_ssh_host: 10.0.0.111
+    a12l:
+      ansible_ssh_host: 10.0.112.6
+    a12r:
+      ansible_ssh_host: 10.0.112.7
+    a12u1:
+      ansible_ssh_host: 10.0.112.10
+    a12u4m3:
+      ansible_host: 10.11.25.1
+      ip: 10.11.25.1
+      access_ip: 10.11.25.1
+    a12u6:
+      ansible_ssh_host: 10.0.112.12
+    a12u9m3:
+      ansible_host: 10.11.26.1
+      ip: 10.11.26.1
+      access_ip: 10.11.26.1
+    a12u11:
+      ansible_ssh_host: 10.0.112.14
+    a12u14m3:
+      ansible_host: 10.11.27.1
+      ip: 10.11.27.1
+      access_ip: 10.11.27.1
+    a12u16:
+      ansible_ssh_host: 10.0.112.16
+    a12u19m3:
+      ansible_host: 10.11.28.1
+      ip: 10.11.28.1
+      access_ip: 10.11.28.1
+    a12u21:
+      ansible_ssh_host: 10.0.112.18
+    a12u24m3:
+      ansible_host: 10.11.29.1
+      ip: 10.11.29.1
+      access_ip: 10.11.29.1
+    a12u26:
+      ansible_ssh_host: 10.0.112.20
+    a12u29m3:
+      ansible_host: 10.11.30.1
+      ip: 10.11.30.1
+      access_ip: 10.11.30.1
+    a12u31:
+      ansible_ssh_host: 10.0.112.22
+    a12u34m3:
+      ansible_host: 10.11.31.1
+      ip: 10.11.31.1
+      access_ip: 10.11.31.1
+    a12u36:
+      ansible_ssh_host: 10.0.112.24
+    a12u39m3:
+      ansible_host: 10.11.32.1
+      ip: 10.11.32.1
+      access_ip: 10.11.32.1
+    a12u41:
+      ansible_ssh_host: 10.0.0.112
+    b1l:
+      ansible_ssh_host: 10.0.113.6
+    b1r:
+      ansible_ssh_host: 10.0.113.7
+    b1u1:
+      ansible_ssh_host: 10.0.113.10
+    b1u04m4:
+      ansible_host: 10.12.1.1
+      ip: 10.12.1.1
+      access_ip: 10.12.1.1
+    b1u6:
+      ansible_ssh_host: 10.0.113.12
+    b1u09m4:
+      ansible_host: 10.12.2.1
+      ip: 10.12.2.1
+      access_ip: 10.12.2.1
+    b1u11:
+      ansible_ssh_host: 10.0.113.14
+    b1u14m4:
+      ansible_host: 10.12.3.1
+      ip: 10.12.3.1
+      access_ip: 10.12.3.1
+    b1u16:
+      ansible_ssh_host: 10.0.113.16
+    b1u19m4:
+      ansible_host: 10.12.4.1
+      ip: 10.12.4.1
+      access_ip: 10.12.4.1
+    b1u21:
+      ansible_ssh_host: 10.0.113.18
+    b1u24m4:
+      ansible_host: 10.12.5.1
+      ip: 10.12.5.1
+      access_ip: 10.12.5.1
+    b1u26:
+      ansible_ssh_host: 10.0.113.20
+    b1u29m4:
+      ansible_host: 10.12.6.1
+      ip: 10.12.6.1
+      access_ip: 10.12.6.1
+    b1u31:
+      ansible_ssh_host: 10.0.113.22
+    b1u34m4:
+      ansible_host: 10.12.7.1
+      ip: 10.12.7.1
+      access_ip: 10.12.7.1
+    b1u36:
+      ansible_ssh_host: 10.0.113.24
+    b1u39m4:
+      ansible_host: 10.12.8.1
+      ip: 10.12.8.1
+      access_ip: 10.12.8.1
+    b1u41:
+      ansible_ssh_host: 10.0.0.113
+    b2l:
+      ansible_ssh_host: 10.0.114.6
+    b2r:
+      ansible_ssh_host: 10.0.114.7
+    b2u8:
+      ansible_ssh_host: 10.0.114.10
+    b2u11:
+      ansible_ssh_host: 10.0.114.11
+    b2u14:
+      ansible_ssh_host: 10.0.114.12
+    b2u17:
+      ansible_ssh_host: 10.0.114.13
+    b2u20:
+      ansible_ssh_host: 10.0.114.14
+    b2u23:
+      ansible_ssh_host: 10.0.114.15
+    b2u26:
+      ansible_ssh_host: 10.0.114.16
+    b2u29:
+      ansible_ssh_host: 10.0.114.17
+    b2u32:
+      ansible_ssh_host: 10.0.114.18
+    b2u35:
+      ansible_ssh_host: 10.0.114.19
+    b2u40:
+      ansible_ssh_host: 10.0.0.178
+    b2u42:
+      ansible_ssh_host: 10.0.0.114
+    b3l:
+      ansible_ssh_host: 10.0.115.6
+    b3r:
+      ansible_ssh_host: 10.0.115.7
+    b3u1:
+      ansible_ssh_host: 10.0.115.10
+    b3u04m4:
+      ansible_host: 10.12.9.1
+      ip: 10.12.9.1
+      access_ip: 10.12.9.1
+    b3u6:
+      ansible_ssh_host: 10.0.115.12
+    b3u09m4:
+      ansible_host: 10.12.10.1
+      ip: 10.12.10.1
+      access_ip: 10.12.10.1
+    b3u11:
+      ansible_ssh_host: 10.0.115.14
+    b3u14m4:
+      ansible_host: 10.12.11.1
+      ip: 10.12.11.1
+      access_ip: 10.12.11.1
+    b3u16:
+      ansible_ssh_host: 10.0.115.16
+    b3u19m4:
+      ansible_host: 10.12.12.1
+      ip: 10.12.12.1
+      access_ip: 10.12.12.1
+    b3u21:
+      ansible_ssh_host: 10.0.115.18
+    b3u24m4:
+      ansible_host: 10.12.13.1
+      ip: 10.12.13.1
+      access_ip: 10.12.13.1
+    b3u26:
+      ansible_ssh_host: 10.0.115.20
+    b3u29m4:
+      ansible_host: 10.12.14.1
+      ip: 10.12.14.1
+      access_ip: 10.12.14.1
+    b3u31:
+      ansible_ssh_host: 10.0.115.22
+    b3u34m4:
+      ansible_host: 10.12.15.1
+      ip: 10.12.15.1
+      access_ip: 10.12.15.1
+    b3u36:
+      ansible_ssh_host: 10.0.115.24
+    b3u39m4:
+      ansible_host: 10.12.16.1
+      ip: 10.12.16.1
+      access_ip: 10.12.16.1
+    b3u41:
+      ansible_ssh_host: 10.0.0.115
+    b4l:
+      ansible_ssh_host: 10.0.116.6
+    b4r:
+      ansible_ssh_host: 10.0.116.7
+    b4u1:
+      ansible_ssh_host: 10.0.116.10
+    b4u04m5:
+      ansible_host: 10.12.17.1
+      ip: 10.12.17.1
+      access_ip: 10.12.17.1
+    b4u6:
+      ansible_ssh_host: 10.0.116.12
+    b4u09m5:
+      ansible_host: 10.12.18.1
+      ip: 10.12.18.1
+      access_ip: 10.12.18.1
+    b4u11:
+      ansible_ssh_host: 10.0.116.14
+    b4u14m5:
+      ansible_host: 10.12.19.1
+      ip: 10.12.19.1
+      access_ip: 10.12.19.1
+    b4u16:
+      ansible_ssh_host: 10.0.116.16
+    b4u19m5:
+      ansible_host: 10.12.20.1
+      ip: 10.12.20.1
+      access_ip: 10.12.20.1
+    b4u21:
+      ansible_ssh_host: 10.0.116.18
+    b4u24m5:
+      ansible_host: 10.12.21.1
+      ip: 10.12.21.1
+      access_ip: 10.12.21.1
+    b4u26:
+      ansible_ssh_host: 10.0.116.20
+    b4u29m5:
+      ansible_host: 10.12.22.1
+      ip: 10.12.22.1
+      access_ip: 10.12.22.1
+    b4u31:
+      ansible_ssh_host: 10.0.116.22
+    b4u34m5:
+      ansible_host: 10.12.23.1
+      ip: 10.12.23.1
+      access_ip: 10.12.23.1
+    b4u36:
+      ansible_ssh_host: 10.0.116.24
+    b4u39m5:
+      ansible_host: 10.12.24.1
+      ip: 10.12.24.1
+      access_ip: 10.12.24.1
+    b4u41:
+      ansible_ssh_host: 10.0.0.116
+    b5l:
+      ansible_ssh_host: 10.0.117.6
+    b5r:
+      ansible_ssh_host: 10.0.117.7
+    b5u8:
+      ansible_ssh_host: 10.0.117.10
+    b5u11:
+      ansible_ssh_host: 10.0.117.11
+    b5u14:
+      ansible_ssh_host: 10.0.117.12
+    b5u17:
+      ansible_ssh_host: 10.0.117.13
+    b5u20:
+      ansible_ssh_host: 10.0.117.14
+    b5u23:
+      ansible_ssh_host: 10.0.117.15
+    b5u26:
+      ansible_ssh_host: 10.0.117.16
+    b5u29:
+      ansible_ssh_host: 10.0.117.17
+    b5u32:
+      ansible_ssh_host: 10.0.117.18
+    b5u35:
+      ansible_ssh_host: 10.0.117.19
+    b5u40:
+      ansible_ssh_host: 10.0.0.179
+    b5u42:
+      ansible_ssh_host: 10.0.0.117
+    b6l:
+      ansible_ssh_host: 10.0.118.6
+    b6r:
+      ansible_ssh_host: 10.0.118.7
+    b6u1:
+      ansible_ssh_host: 10.0.118.10
+    b6u04m5:
+      ansible_host: 10.12.25.1
+      ip: 10.12.25.1
+      access_ip: 10.12.25.1
+    b6u6:
+      ansible_ssh_host: 10.0.118.12
+    b6u09m5:
+      ansible_host: 10.12.26.1
+      ip: 10.12.26.1
+      access_ip: 10.12.26.1
+    b6u11:
+      ansible_ssh_host: 10.0.118.14
+    b6u14m5:
+      ansible_host: 10.12.27.1
+      ip: 10.12.27.1
+      access_ip: 10.12.27.1
+    b6u16:
+      ansible_ssh_host: 10.0.118.16
+    b6u19m5:
+      ansible_host: 10.12.28.1
+      ip: 10.12.28.1
+      access_ip: 10.12.28.1
+    b6u21:
+      ansible_ssh_host: 10.0.118.18
+    b6u24m5:
+      ansible_host: 10.12.29.1
+      ip: 10.12.29.1
+      access_ip: 10.12.29.1
+    b6u26:
+      ansible_ssh_host: 10.0.118.20
+    b6u29m5:
+      ansible_host: 10.12.30.1
+      ip: 10.12.30.1
+      access_ip: 10.12.30.1
+    b6u31:
+      ansible_ssh_host: 10.0.118.22
+    b6u34m5:
+      ansible_host: 10.12.31.1
+      ip: 10.12.31.1
+      access_ip: 10.12.31.1
+    b6u36:
+      ansible_ssh_host: 10.0.118.24
+    b6u39m5:
+      ansible_host: 10.12.32.1
+      ip: 10.12.32.1
+      access_ip: 10.12.32.1
+    b6u41:
+      ansible_ssh_host: 10.0.0.118
+    b7l:
+      ansible_ssh_host: 10.0.119.6
+    b7r:
+      ansible_ssh_host: 10.0.119.7
+    b7u1:
+      ansible_ssh_host: 10.0.119.10
+    b7u04m6:
+      ansible_host: 10.13.1.1
+      ip: 10.13.1.1
+      access_ip: 10.13.1.1
+    b7u6:
+      ansible_ssh_host: 10.0.119.12
+    b7u09m6:
+      ansible_host: 10.13.2.1
+      ip: 10.13.2.1
+      access_ip: 10.13.2.1
+    b7u11:
+      ansible_ssh_host: 10.0.119.14
+    b7u14m6:
+      ansible_host: 10.13.3.1
+      ip: 10.13.3.1
+      access_ip: 10.13.3.1
+    b7u16:
+      ansible_ssh_host: 10.0.119.16
+    b7u19m6:
+      ansible_host: 10.13.4.1
+      ip: 10.13.4.1
+      access_ip: 10.13.4.1
+    b7u21:
+      ansible_ssh_host: 10.0.119.18
+    b7u24m6:
+      ansible_host: 10.13.5.1
+      ip: 10.13.5.1
+      access_ip: 10.13.5.1
+    b7u26:
+      ansible_ssh_host: 10.0.119.20
+    b7u29m6:
+      ansible_host: 10.13.6.1
+      ip: 10.13.6.1
+      access_ip: 10.13.6.1
+    b7u31:
+      ansible_ssh_host: 10.0.119.22
+    b7u34m6:
+      ansible_host: 10.13.7.1
+      ip: 10.13.7.1
+      access_ip: 10.13.7.1
+    b7u36:
+      ansible_ssh_host: 10.0.119.24
+    b7u39m6:
+      ansible_host: 10.13.8.1
+      ip: 10.13.8.1
+      access_ip: 10.13.8.1
+    b7u41:
+      ansible_ssh_host: 10.0.0.119
+    b8l:
+      ansible_ssh_host: 10.0.120.6
+    b8r:
+      ansible_ssh_host: 10.0.120.7
+    b8u8:
+      ansible_ssh_host: 10.0.120.10
+    b8u11:
+      ansible_ssh_host: 10.0.120.11
+    b8u14:
+      ansible_ssh_host: 10.0.120.12
+    b8u17:
+      ansible_ssh_host: 10.0.120.13
+    b8u20:
+      ansible_ssh_host: 10.0.120.14
+    b8u23:
+      ansible_ssh_host: 10.0.120.15
+    b8u26:
+      ansible_ssh_host: 10.0.120.16
+    b8u29:
+      ansible_ssh_host: 10.0.120.17
+    b8u32:
+      ansible_ssh_host: 10.0.120.18
+    b8u35:
+      ansible_ssh_host: 10.0.120.19
+    b8u40:
+      ansible_ssh_host: 10.0.0.180
+    b8u42:
+      ansible_ssh_host: 10.0.0.120
+    b9l:
+      ansible_ssh_host: 10.0.121.6
+    b9r:
+      ansible_ssh_host: 10.0.121.7
+    b9u1:
+      ansible_ssh_host: 10.0.121.10
+    b9u04m6:
+      ansible_host: 10.13.9.1
+      ip: 10.13.9.1
+      access_ip: 10.13.9.1
+    b9u6:
+      ansible_ssh_host: 10.0.121.12
+    b9u09m6:
+      ansible_host: 10.13.10.1
+      ip: 10.13.10.1
+      access_ip: 10.13.10.1
+    b9u11:
+      ansible_ssh_host: 10.0.121.14
+    b9u14m6:
+      ansible_host: 10.13.11.1
+      ip: 10.13.11.1
+      access_ip: 10.13.11.1
+    b9u16:
+      ansible_ssh_host: 10.0.121.16
+    b9u19m6:
+      ansible_host: 10.13.12.1
+      ip: 10.13.12.1
+      access_ip: 10.13.12.1
+    b9u21:
+      ansible_ssh_host: 10.0.121.18
+    b9u24m6:
+      ansible_host: 10.13.13.1
+      ip: 10.13.13.1
+      access_ip: 10.13.13.1
+    b9u26:
+      ansible_ssh_host: 10.0.121.20
+    b9u29m6:
+      ansible_host: 10.13.14.1
+      ip: 10.13.14.1
+      access_ip: 10.13.14.1
+    b9u31:
+      ansible_ssh_host: 10.0.121.22
+    b9u34m6:
+      ansible_host: 10.13.15.1
+      ip: 10.13.15.1
+      access_ip: 10.13.15.1
+    b9u36:
+      ansible_ssh_host: 10.0.121.24
+    b9u39m6:
+      ansible_host: 10.13.16.1
+      ip: 10.13.16.1
+      access_ip: 10.13.16.1
+    b9u41:
+      ansible_ssh_host: 10.0.0.121
+    b10l:
+      ansible_ssh_host: 10.0.122.6
+    b10r:
+      ansible_ssh_host: 10.0.122.7
+    b10u1:
+      ansible_ssh_host: 10.0.122.10
+    b10u04m7:
+      ansible_host: 10.13.17.1
+      ip: 10.13.17.1
+      access_ip: 10.13.17.1
+    b10u6:
+      ansible_ssh_host: 10.0.122.12
+    b10u09m7:
+      ansible_host: 10.13.18.1
+      ip: 10.13.18.1
+      access_ip: 10.13.18.1
+    b10u11:
+      ansible_ssh_host: 10.0.122.14
+    b10u14m7:
+      ansible_host: 10.13.19.1
+      ip: 10.13.19.1
+      access_ip: 10.13.19.1
+    b10u16:
+      ansible_ssh_host: 10.0.122.16
+    b10u19m7:
+      ansible_host: 10.13.20.1
+      ip: 10.13.20.1
+      access_ip: 10.13.20.1
+    b10u21:
+      ansible_ssh_host: 10.0.122.18
+    b10u24m7:
+      ansible_host: 10.13.21.1
+      ip: 10.13.21.1
+      access_ip: 10.13.21.1
+    b10u26:
+      ansible_ssh_host: 10.0.122.20
+    b10u29m7:
+      ansible_host: 10.13.22.1
+      ip: 10.13.22.1
+      access_ip: 10.13.22.1
+    b10u31:
+      ansible_ssh_host: 10.0.122.22
+    b10u34m7:
+      ansible_host: 10.13.23.1
+      ip: 10.13.23.1
+      access_ip: 10.13.23.1
+    b10u36:
+      ansible_ssh_host: 10.0.122.24
+    b10u39m7:
+      ansible_host: 10.13.24.1
+      ip: 10.13.24.1
+      access_ip: 10.13.24.1
+    b10u41:
+      ansible_ssh_host: 10.0.0.122
+    b11l:
+      ansible_ssh_host: 10.0.123.6
+    b11r:
+      ansible_ssh_host: 10.0.123.7
+    b11u8:
+      ansible_ssh_host: 10.0.123.10
+    b11u11:
+      ansible_ssh_host: 10.0.123.11
+    b11u14:
+      ansible_ssh_host: 10.0.123.12
+    b11u17:
+      ansible_ssh_host: 10.0.123.13
+    b11u20:
+      ansible_ssh_host: 10.0.123.14
+    b11u23:
+      ansible_ssh_host: 10.0.123.15
+    b11u26:
+      ansible_ssh_host: 10.0.123.16
+    b11u29:
+      ansible_ssh_host: 10.0.123.17
+    b11u32:
+      ansible_ssh_host: 10.0.123.18
+    b11u35:
+      ansible_ssh_host: 10.0.123.19
+    b11u40:
+      ansible_ssh_host: 10.0.0.181
+    b11u42:
+      ansible_ssh_host: 10.0.0.123
+    b12l:
+      ansible_ssh_host: 10.0.124.6
+    b12r:
+      ansible_ssh_host: 10.0.124.7
+    b12u1:
+      ansible_ssh_host: 10.0.124.10
+    b12u04m7:
+      ansible_host: 10.13.25.1
+      ip: 10.13.25.1
+      access_ip: 10.13.25.1
+    b12u6:
+      ansible_ssh_host: 10.0.124.12
+    b12u09m7:
+      ansible_host: 10.13.26.1
+      ip: 10.13.26.1
+      access_ip: 10.13.26.1
+    b12u11:
+      ansible_ssh_host: 10.0.124.14
+    b12u14m7:
+      ansible_host: 10.13.27.1
+      ip: 10.13.27.1
+      access_ip: 10.13.27.1
+    b12u16:
+      ansible_ssh_host: 10.0.124.16
+    b12u19m7:
+      ansible_host: 10.13.28.1
+      ip: 10.13.28.1
+      access_ip: 10.13.28.1
+    b12u21:
+      ansible_ssh_host: 10.0.124.18
+    b12u24m7:
+      ansible_host: 10.13.29.1
+      ip: 10.13.29.1
+      access_ip: 10.13.29.1
+    b12u26:
+      ansible_ssh_host: 10.0.124.20
+    b12u29m7:
+      ansible_host: 10.13.30.1
+      ip: 10.13.30.1
+      access_ip: 10.13.30.1
+    b12u31:
+      ansible_ssh_host: 10.0.124.22
+    b12u34m7:
+      ansible_host: 10.13.31.1
+      ip: 10.13.31.1
+      access_ip: 10.13.31.1
+    b12u36:
+      ansible_ssh_host: 10.0.124.24
+    b12u39m7:
+      ansible_host: 10.13.32.1
+      ip: 10.13.32.1
+      access_ip: 10.13.32.1
+    b12u41:
+      ansible_ssh_host: 10.0.0.124
+    c1l:
+      ansible_ssh_host: 10.0.125.6
+    c1r:
+      ansible_ssh_host: 10.0.125.7
+    c1u1:
+      ansible_ssh_host: 10.0.125.10
+    c1u4m8:
+      ansible_host: 10.14.1.1
+      ip: 10.14.1.1
+      access_ip: 10.14.1.1
+    c1u6:
+      ansible_ssh_host: 10.0.125.12
+    c1u9m8:
+      ansible_host: 10.14.2.1
+      ip: 10.14.2.1
+      access_ip: 10.14.2.1
+    c1u11:
+      ansible_ssh_host: 10.0.125.14
+    c1u14m8:
+      ansible_host: 10.14.3.1
+      ip: 10.14.3.1
+      access_ip: 10.14.3.1
+    c1u16:
+      ansible_ssh_host: 10.0.125.16
+    c1u19m8:
+      ansible_host: 10.14.4.1
+      ip: 10.14.4.1
+      access_ip: 10.14.4.1
+    c1u21:
+      ansible_ssh_host: 10.0.125.18
+    c1u24m8:
+      ansible_host: 10.14.5.1
+      ip: 10.14.5.1
+      access_ip: 10.14.5.1
+    c1u26:
+      ansible_ssh_host: 10.0.125.20
+    c1u29m8:
+      ansible_host: 10.14.6.1
+      ip: 10.14.6.1
+      access_ip: 10.14.6.1
+    c1u31:
+      ansible_ssh_host: 10.0.125.22
+    c1u34m8:
+      ansible_host: 10.14.7.1
+      ip: 10.14.7.1
+      access_ip: 10.14.7.1
+    c1u36:
+      ansible_ssh_host: 10.0.125.24
+    c1u39m8:
+      ansible_host: 10.14.8.1
+      ip: 10.14.8.1
+      access_ip: 10.14.8.1
+    c1u41:
+      ansible_ssh_host: 10.0.0.125
+    c2l:
+      ansible_ssh_host: 10.0.126.6
+    c2r:
+      ansible_ssh_host: 10.0.126.7
+    c2u8:
+      ansible_ssh_host: 10.0.126.10
+    c2u11:
+      ansible_ssh_host: 10.0.126.11
+    c2u14:
+      ansible_ssh_host: 10.0.126.12
+    c2u17:
+      ansible_ssh_host: 10.0.126.13
+    c2u20:
+      ansible_ssh_host: 10.0.126.14
+    c2u23:
+      ansible_ssh_host: 10.0.126.15
+    c2u26:
+      ansible_ssh_host: 10.0.126.16
+    c2u29:
+      ansible_ssh_host: 10.0.126.17
+    c2u32:
+      ansible_ssh_host: 10.0.126.18
+    c2u35:
+      ansible_ssh_host: 10.0.126.19
+    c2u40:
+      ansible_ssh_host: 10.0.0.182
+    c2u42:
+      ansible_ssh_host: 10.0.0.126
+    c3l:
+      ansible_ssh_host: 10.0.127.6
+    c3r:
+      ansible_ssh_host: 10.0.127.7
+    c3u1:
+      ansible_ssh_host: 10.0.127.10
+    c3u4m8:
+      ansible_host: 10.14.9.1
+      ip: 10.14.9.1
+      access_ip: 10.14.9.1
+    c3u6:
+      ansible_ssh_host: 10.0.127.12
+    c3u9m8:
+      ansible_host: 10.14.10.1
+      ip: 10.14.10.1
+      access_ip: 10.14.10.1
+    c3u11:
+      ansible_ssh_host: 10.0.127.14
+    c3u14m8:
+      ansible_host: 10.14.11.1
+      ip: 10.14.11.1
+      access_ip: 10.14.11.1
+    c3u16:
+      ansible_ssh_host: 10.0.127.16
+    c3u19m8:
+      ansible_host: 10.14.12.1
+      ip: 10.14.12.1
+      access_ip: 10.14.12.1
+    c3u21:
+      ansible_ssh_host: 10.0.127.18
+    c3u24m8:
+      ansible_host: 10.14.13.1
+      ip: 10.14.13.1
+      access_ip: 10.14.13.1
+    c3u26:
+      ansible_ssh_host: 10.0.127.20
+    c3u29m8:
+      ansible_host: 10.14.14.1
+      ip: 10.14.14.1
+      access_ip: 10.14.14.1
+    c3u31:
+      ansible_ssh_host: 10.0.127.22
+    c3u34m8:
+      ansible_host: 10.14.15.1
+      ip: 10.14.15.1
+      access_ip: 10.14.15.1
+    c3u36:
+      ansible_ssh_host: 10.0.127.24
+    c3u39m8:
+      ansible_host: 10.14.16.1
+      ip: 10.14.16.1
+      access_ip: 10.14.16.1
+    c3u41:
+      ansible_ssh_host: 10.0.0.127
+    c4l:
+      ansible_ssh_host: 10.0.128.6
+    c4r:
+      ansible_ssh_host: 10.0.128.7
+    c4u1:
+      ansible_ssh_host: 10.0.128.10
+    c4u4m9:
+      ansible_host: 10.14.17.1
+      ip: 10.14.17.1
+      access_ip: 10.14.17.1
+    c4u6:
+      ansible_ssh_host: 10.0.128.12
+    c4u9m9:
+      ansible_host: 10.14.18.1
+      ip: 10.14.18.1
+      access_ip: 10.14.18.1
+    c4u11:
+      ansible_ssh_host: 10.0.128.14
+    c4u14m9:
+      ansible_host: 10.14.19.1
+      ip: 10.14.19.1
+      access_ip: 10.14.19.1
+    c4u16:
+      ansible_ssh_host: 10.0.128.16
+    c4u19m9:
+      ansible_host: 10.14.20.1
+      ip: 10.14.20.1
+      access_ip: 10.14.20.1
+    c4u21:
+      ansible_ssh_host: 10.0.128.18
+    c4u24m9:
+      ansible_host: 10.14.21.1
+      ip: 10.14.21.1
+      access_ip: 10.14.21.1
+    c4u26:
+      ansible_ssh_host: 10.0.128.20
+    c4u29m9:
+      ansible_host: 10.14.22.1
+      ip: 10.14.22.1
+      access_ip: 10.14.22.1
+    c4u31:
+      ansible_ssh_host: 10.0.128.22
+    c4u34m9:
+      ansible_host: 10.14.23.1
+      ip: 10.14.23.1
+      access_ip: 10.14.23.1
+    c4u36:
+      ansible_ssh_host: 10.0.128.24
+    c4u39m9:
+      ansible_host: 10.14.24.1
+      ip: 10.14.24.1
+      access_ip: 10.14.24.1
+    c4u41:
+      ansible_ssh_host: 10.0.0.128
+    c5l:
+      ansible_ssh_host: 10.0.129.6
+    c5r:
+      ansible_ssh_host: 10.0.129.7
+    c5u8:
+      ansible_ssh_host: 10.0.129.10
+    c5u11:
+      ansible_ssh_host: 10.0.129.11
+    c5u14:
+      ansible_ssh_host: 10.0.129.12
+    c5u17:
+      ansible_ssh_host: 10.0.129.13
+    c5u20:
+      ansible_ssh_host: 10.0.129.14
+    c5u23:
+      ansible_ssh_host: 10.0.129.15
+    c5u26:
+      ansible_ssh_host: 10.0.129.16
+    c5u29:
+      ansible_ssh_host: 10.0.129.17
+    c5u32:
+      ansible_ssh_host: 10.0.129.18
+    c5u35:
+      ansible_ssh_host: 10.0.129.19
+    c5u40:
+      ansible_ssh_host: 10.0.0.183
+    c5u42:
+      ansible_ssh_host: 10.0.0.129
+    c6l:
+      ansible_ssh_host: 10.0.130.6
+    c6r:
+      ansible_ssh_host: 10.0.130.7
+    c6u1:
+      ansible_ssh_host: 10.0.130.10
+    c6u4m9:
+      ansible_host: 10.14.25.1
+      ip: 10.14.25.1
+      access_ip: 10.14.25.1
+    c6u6:
+      ansible_ssh_host: 10.0.130.12
+    c6u9m9:
+      ansible_host: 10.14.26.1
+      ip: 10.14.26.1
+      access_ip: 10.14.26.1
+    c6u11:
+      ansible_ssh_host: 10.0.130.14
+    c6u14m9:
+      ansible_host: 10.14.27.1
+      ip: 10.14.27.1
+      access_ip: 10.14.27.1
+    c6u16:
+      ansible_ssh_host: 10.0.130.16
+    c6u19m9:
+      ansible_host: 10.14.28.1
+      ip: 10.14.28.1
+      access_ip: 10.14.28.1
+    c6u21:
+      ansible_ssh_host: 10.0.130.18
+    c6u24m9:
+      ansible_host: 10.14.29.1
+      ip: 10.14.29.1
+      access_ip: 10.14.29.1
+    c6u26:
+      ansible_ssh_host: 10.0.130.20
+    c6u29m9:
+      ansible_host: 10.14.30.1
+      ip: 10.14.30.1
+      access_ip: 10.14.30.1
+    c6u31:
+      ansible_ssh_host: 10.0.130.22
+    c6u34m9:
+      ansible_host: 10.14.31.1
+      ip: 10.14.31.1
+      access_ip: 10.14.31.1
+    c6u36:
+      ansible_ssh_host: 10.0.130.24
+    c6u39m9:
+      ansible_host: 10.14.32.1
+      ip: 10.14.32.1
+      access_ip: 10.14.32.1
+    c6u41:
+      ansible_ssh_host: 10.0.0.130
+    c7l:
+      ansible_ssh_host: 10.0.131.6
+    c7r:
+      ansible_ssh_host: 10.0.131.7
+    c7u1:
+      ansible_ssh_host: 10.0.131.10
+    c7u4m10:
+      ansible_host: 10.15.1.1
+      ip: 10.15.1.1
+      access_ip: 10.15.1.1
+    c7u6:
+      ansible_ssh_host: 10.0.131.12
+    c7u9m10:
+      ansible_host: 10.15.2.1
+      ip: 10.15.2.1
+      access_ip: 10.15.2.1
+    c7u11:
+      ansible_ssh_host: 10.0.131.14
+    c7u14m10:
+      ansible_host: 10.15.3.1
+      ip: 10.15.3.1
+      access_ip: 10.15.3.1
+    c7u16:
+      ansible_ssh_host: 10.0.131.16
+    c7u19m10:
+      ansible_host: 10.15.4.1
+      ip: 10.15.4.1
+      access_ip: 10.15.4.1
+    c7u21:
+      ansible_ssh_host: 10.0.131.18
+    c7u24m10:
+      ansible_host: 10.15.5.1
+      ip: 10.15.5.1
+      access_ip: 10.15.5.1
+    c7u26:
+      ansible_ssh_host: 10.0.131.20
+    c7u29m10:
+      ansible_host: 10.15.6.1
+      ip: 10.15.6.1
+      access_ip: 10.15.6.1
+    c7u31:
+      ansible_ssh_host: 10.0.131.22
+    c7u34m10:
+      ansible_host: 10.15.7.1
+      ip: 10.15.7.1
+      access_ip: 10.15.7.1
+    c7u36:
+      ansible_ssh_host: 10.0.131.24
+    c7u39m10:
+      ansible_host: 10.15.8.1
+      ip: 10.15.8.1
+      access_ip: 10.15.8.1
+    c7u41:
+      ansible_ssh_host: 10.0.0.131
+    c8l:
+      ansible_ssh_host: 10.0.132.6
+    c8r:
+      ansible_ssh_host: 10.0.132.7
+    c8u8:
+      ansible_ssh_host: 10.0.132.10
+    c8u11:
+      ansible_ssh_host: 10.0.132.11
+    c8u14:
+      ansible_ssh_host: 10.0.132.12
+    c8u17:
+      ansible_ssh_host: 10.0.132.13
+    c8u20:
+      ansible_ssh_host: 10.0.132.14
+    c8u23:
+      ansible_ssh_host: 10.0.132.15
+    c8u26:
+      ansible_ssh_host: 10.0.132.16
+    c8u29:
+      ansible_ssh_host: 10.0.132.17
+    c8u32:
+      ansible_ssh_host: 10.0.132.18
+    c8u35:
+      ansible_ssh_host: 10.0.132.19
+    c8u40:
+      ansible_ssh_host: 10.0.0.184
+    c8u42:
+      ansible_ssh_host: 10.0.0.132
+    c9l:
+      ansible_ssh_host: 10.0.133.6
+    c9r:
+      ansible_ssh_host: 10.0.133.7
+    c9u1:
+      ansible_ssh_host: 10.0.133.10
+    c9u4m10:
+      ansible_host: 10.15.9.1
+      ip: 10.15.9.1
+      access_ip: 10.15.9.1
+    c9u6:
+      ansible_ssh_host: 10.0.133.12
+    c9u9m10:
+      ansible_host: 10.15.10.1
+      ip: 10.15.10.1
+      access_ip: 10.15.10.1
+    c9u11:
+      ansible_ssh_host: 10.0.133.14
+    c9u14m10:
+      ansible_host: 10.15.11.1
+      ip: 10.15.11.1
+      access_ip: 10.15.11.1
+    c9u16:
+      ansible_ssh_host: 10.0.133.16
+    c9u19m10:
+      ansible_host: 10.15.12.1
+      ip: 10.15.12.1
+      access_ip: 10.15.12.1
+    c9u21:
+      ansible_ssh_host: 10.0.133.18
+    c9u24m10:
+      ansible_host: 10.15.13.1
+      ip: 10.15.13.1
+      access_ip: 10.15.13.1
+    c9u26:
+      ansible_ssh_host: 10.0.133.20
+    c9u29m10:
+      ansible_host: 10.15.14.1
+      ip: 10.15.14.1
+      access_ip: 10.15.14.1
+    c9u31:
+      ansible_ssh_host: 10.0.133.22
+    c9u34m10:
+      ansible_host: 10.15.15.1
+      ip: 10.15.15.1
+      access_ip: 10.15.15.1
+    c9u36:
+      ansible_ssh_host: 10.0.133.24
+    c9u39m10:
+      ansible_host: 10.15.16.1
+      ip: 10.15.16.1
+      access_ip: 10.15.16.1
+    c9u41:
+      ansible_ssh_host: 10.0.0.133
+    c10l:
+      ansible_ssh_host: 10.0.134.6
+    c10r:
+      ansible_ssh_host: 10.0.134.7
+    c10u1:
+      ansible_ssh_host: 10.0.134.10
+    c10u4m11:
+      ansible_host: 10.15.17.1
+      ip: 10.15.17.1
+      access_ip: 10.15.17.1
+    c10u6:
+      ansible_ssh_host: 10.0.134.12
+    c10u9m11:
+      ansible_host: 10.15.18.1
+      ip: 10.15.18.1
+      access_ip: 10.15.18.1
+    c10u11:
+      ansible_ssh_host: 10.0.134.14
+    c10u14m11:
+      ansible_host: 10.15.19.1
+      ip: 10.15.19.1
+      access_ip: 10.15.19.1
+    c10u16:
+      ansible_ssh_host: 10.0.134.16
+    c10u19m11:
+      ansible_host: 10.15.20.1
+      ip: 10.15.20.1
+      access_ip: 10.15.20.1
+    c10u21:
+      ansible_ssh_host: 10.0.134.18
+    c10u24m11:
+      ansible_host: 10.15.21.1
+      ip: 10.15.21.1
+      access_ip: 10.15.21.1
+    c10u26:
+      ansible_ssh_host: 10.0.134.20
+    c10u29m11:
+      ansible_host: 10.15.22.1
+      ip: 10.15.22.1
+      access_ip: 10.15.22.1
+    c10u31:
+      ansible_ssh_host: 10.0.134.22
+    c10u34m11:
+      ansible_host: 10.15.23.1
+      ip: 10.15.23.1
+      access_ip: 10.15.23.1
+    c10u36:
+      ansible_ssh_host: 10.0.134.24
+    c10u39m11:
+      ansible_host: 10.15.24.1
+      ip: 10.15.24.1
+      access_ip: 10.15.24.1
+    c10u41:
+      ansible_ssh_host: 10.0.0.134
+    c11l:
+      ansible_ssh_host: 10.0.135.6
+    c11r:
+      ansible_ssh_host: 10.0.135.7
+    c11u8:
+      ansible_ssh_host: 10.0.135.10
+    c11u11:
+      ansible_ssh_host: 10.0.135.11
+    c11u14:
+      ansible_ssh_host: 10.0.135.12
+    c11u17:
+      ansible_ssh_host: 10.0.135.13
+    c11u20:
+      ansible_ssh_host: 10.0.135.14
+    c11u23:
+      ansible_ssh_host: 10.0.135.15
+    c11u26:
+      ansible_ssh_host: 10.0.135.16
+    c11u29:
+      ansible_ssh_host: 10.0.135.17
+    c11u32:
+      ansible_ssh_host: 10.0.135.18
+    c11u35:
+      ansible_ssh_host: 10.0.135.19
+    c11u40:
+      ansible_ssh_host: 10.0.0.185
+    c11u42:
+      ansible_ssh_host: 10.0.0.135
+    c12l:
+      ansible_ssh_host: 10.0.136.6
+    c12r:
+      ansible_ssh_host: 10.0.136.7
+    c12u1:
+      ansible_ssh_host: 10.0.136.10
+    c12u4m11:
+      ansible_host: 10.15.25.1
+      ip: 10.15.25.1
+      access_ip: 10.15.25.1
+    c12u6:
+      ansible_ssh_host: 10.0.136.12
+    c12u9m11:
+      ansible_host: 10.15.26.1
+      ip: 10.15.26.1
+      access_ip: 10.15.26.1
+    c12u11:
+      ansible_ssh_host: 10.0.136.14
+    c12u14m11:
+      ansible_host: 10.15.27.1
+      ip: 10.15.27.1
+      access_ip: 10.15.27.1
+    c12u16:
+      ansible_ssh_host: 10.0.136.16
+    c12u19m11:
+      ansible_host: 10.15.28.1
+      ip: 10.15.28.1
+      access_ip: 10.15.28.1
+    c12u21:
+      ansible_ssh_host: 10.0.136.18
+    c12u24m11:
+      ansible_host: 10.15.29.1
+      ip: 10.15.29.1
+      access_ip: 10.15.29.1
+    c12u26:
+      ansible_ssh_host: 10.0.136.20
+    c12u29m11:
+      ansible_host: 10.15.30.1
+      ip: 10.15.30.1
+      access_ip: 10.15.30.1
+    c12u31:
+      ansible_ssh_host: 10.0.136.22
+    c12u34m11:
+      ansible_host: 10.15.31.1
+      ip: 10.15.31.1
+      access_ip: 10.15.31.1
+    c12u36:
+      ansible_ssh_host: 10.0.136.24
+    c12u39m11:
+      ansible_host: 10.15.32.1
+      ip: 10.15.32.1
+      access_ip: 10.15.32.1
+    c12u41:
+      ansible_ssh_host: 10.0.0.136
+    d1l:
+      ansible_ssh_host: 10.0.137.6
+    d1r:
+      ansible_ssh_host: 10.0.137.7
+    d1u1:
+      ansible_ssh_host: 10.0.137.10
+    d1u4m12:
+      ansible_host: 10.16.1.1
+      ip: 10.16.1.1
+      access_ip: 10.16.1.1
+    d1u6:
+      ansible_ssh_host: 10.0.137.12
+    d1u9m12:
+      ansible_host: 10.16.2.1
+      ip: 10.16.2.1
+      access_ip: 10.16.2.1
+    d1u11:
+      ansible_ssh_host: 10.0.137.14
+    d1u14m12:
+      ansible_host: 10.16.3.1
+      ip: 10.16.3.1
+      access_ip: 10.16.3.1
+    d1u16:
+      ansible_ssh_host: 10.0.137.16
+    d1u19m12:
+      ansible_host: 10.16.4.1
+      ip: 10.16.4.1
+      access_ip: 10.16.4.1
+    d1u21:
+      ansible_ssh_host: 10.0.137.18
+    d1u24m12:
+      ansible_host: 10.16.5.1
+      ip: 10.16.5.1
+      access_ip: 10.16.5.1
+    d1u26:
+      ansible_ssh_host: 10.0.137.20
+    d1u29m12:
+      ansible_host: 10.16.6.1
+      ip: 10.16.6.1
+      access_ip: 10.16.6.1
+    d1u31:
+      ansible_ssh_host: 10.0.137.22
+    d1u34m12:
+      ansible_host: 10.16.7.1
+      ip: 10.16.7.1
+      access_ip: 10.16.7.1
+    d1u36:
+      ansible_ssh_host: 10.0.137.24
+    d1u39m12:
+      ansible_host: 10.16.8.1
+      ip: 10.16.8.1
+      access_ip: 10.16.8.1
+    d1u41:
+      ansible_ssh_host: 10.0.0.137
+    d2l:
+      ansible_ssh_host: 10.0.138.6
+    d2r:
+      ansible_ssh_host: 10.0.138.7
+    d2u8:
+      ansible_ssh_host: 10.0.138.10
+    d2u11:
+      ansible_ssh_host: 10.0.138.11
+    d2u14:
+      ansible_ssh_host: 10.0.138.12
+    d2u17:
+      ansible_ssh_host: 10.0.138.13
+    d2u20:
+      ansible_ssh_host: 10.0.138.14
+    d2u23:
+      ansible_ssh_host: 10.0.138.15
+    d2u26:
+      ansible_ssh_host: 10.0.138.16
+    d2u29:
+      ansible_ssh_host: 10.0.138.17
+    d2u32:
+      ansible_ssh_host: 10.0.138.18
+    d2u35:
+      ansible_ssh_host: 10.0.138.19
+    d2u40:
+      ansible_ssh_host: 10.0.0.186
+    d2u42:
+      ansible_ssh_host: 10.0.0.138
+    d3l:
+      ansible_ssh_host: 10.0.139.6
+    d3r:
+      ansible_ssh_host: 10.0.139.7
+    d3u1:
+      ansible_ssh_host: 10.0.139.10
+    d3u4m12:
+      ansible_host: 10.16.9.1
+      ip: 10.16.9.1
+      access_ip: 10.16.9.1
+    d3u6:
+      ansible_ssh_host: 10.0.139.12
+    d3u9m12:
+      ansible_host: 10.16.10.1
+      ip: 10.16.10.1
+      access_ip: 10.16.10.1
+    d3u11:
+      ansible_ssh_host: 10.0.139.14
+    d3u14m12:
+      ansible_host: 10.16.11.1
+      ip: 10.16.11.1
+      access_ip: 10.16.11.1
+    d3u16:
+      ansible_ssh_host: 10.0.139.16
+    d3u19m12:
+      ansible_host: 10.16.12.1
+      ip: 10.16.12.1
+      access_ip: 10.16.12.1
+    d3u21:
+      ansible_ssh_host: 10.0.139.18
+    d3u24m12:
+      ansible_host: 10.16.13.1
+      ip: 10.16.13.1
+      access_ip: 10.16.13.1
+    d3u26:
+      ansible_ssh_host: 10.0.139.20
+    d3u29m12:
+      ansible_host: 10.16.14.1
+      ip: 10.16.14.1
+      access_ip: 10.16.14.1
+    d3u31:
+      ansible_ssh_host: 10.0.139.22
+    d3u34m12:
+      ansible_host: 10.16.15.1
+      ip: 10.16.15.1
+      access_ip: 10.16.15.1
+    d3u36:
+      ansible_ssh_host: 10.0.139.24
+    d3u39m12:
+      ansible_host: 10.16.16.1
+      ip: 10.16.16.1
+      access_ip: 10.16.16.1
+    d3u41:
+      ansible_ssh_host: 10.0.0.139
+    d4l:
+      ansible_ssh_host: 10.0.140.6
+    d4r:
+      ansible_ssh_host: 10.0.140.7
+    d4u1:
+      ansible_ssh_host: 10.0.140.10
+    d4u4m13:
+      ansible_host: 10.16.17.1
+      ip: 10.16.17.1
+      access_ip: 10.16.17.1
+    d4u6:
+      ansible_ssh_host: 10.0.140.12
+    d4u9m13:
+      ansible_host: 10.16.18.1
+      ip: 10.16.18.1
+      access_ip: 10.16.18.1
+    d4u11:
+      ansible_ssh_host: 10.0.140.14
+    d4u14m13:
+      ansible_host: 10.16.19.1
+      ip: 10.16.19.1
+      access_ip: 10.16.19.1
+    d4u16:
+      ansible_ssh_host: 10.0.140.16
+    d4u19m13:
+      ansible_host: 10.16.20.1
+      ip: 10.16.20.1
+      access_ip: 10.16.20.1
+    d4u21:
+      ansible_ssh_host: 10.0.140.18
+    d4u24m13:
+      ansible_host: 10.16.21.1
+      ip: 10.16.21.1
+      access_ip: 10.16.21.1
+    d4u26:
+      ansible_ssh_host: 10.0.140.20
+    d4u29m13:
+      ansible_host: 10.16.22.1
+      ip: 10.16.22.1
+      access_ip: 10.16.22.1
+    d4u31:
+      ansible_ssh_host: 10.0.140.22
+    d4u34m13:
+      ansible_host: 10.16.23.1
+      ip: 10.16.23.1
+      access_ip: 10.16.23.1
+    d4u36:
+      ansible_ssh_host: 10.0.140.24
+    d4u39m13:
+      ansible_host: 10.16.24.1
+      ip: 10.16.24.1
+      access_ip: 10.16.24.1
+    d4u41:
+      ansible_ssh_host: 10.0.0.140
+    d5l:
+      ansible_ssh_host: 10.0.141.6
+    d5r:
+      ansible_ssh_host: 10.0.141.7
+    d5u8:
+      ansible_ssh_host: 10.0.141.10
+    d5u11:
+      ansible_ssh_host: 10.0.141.11
+    d5u14:
+      ansible_ssh_host: 10.0.141.12
+    d5u17:
+      ansible_ssh_host: 10.0.141.13
+    d5u20:
+      ansible_ssh_host: 10.0.141.14
+    d5u23:
+      ansible_ssh_host: 10.0.141.15
+    d5u26:
+      ansible_ssh_host: 10.0.141.16
+    d5u29:
+      ansible_ssh_host: 10.0.141.17
+    d5u32:
+      ansible_ssh_host: 10.0.141.18
+    d5u35:
+      ansible_ssh_host: 10.0.141.19
+    d5u40:
+      ansible_ssh_host: 10.0.0.187
+    d5u42:
+      ansible_ssh_host: 10.0.0.141
+    d6l:
+      ansible_ssh_host: 10.0.142.6
+    d6r:
+      ansible_ssh_host: 10.0.142.7
+    d6u1:
+      ansible_ssh_host: 10.0.142.10
+    d6u4m13:
+      ansible_host: 10.16.25.1
+      ip: 10.16.25.1
+      access_ip: 10.16.25.1
+    d6u6:
+      ansible_ssh_host: 10.0.142.12
+    d6u9m13:
+      ansible_host: 10.16.26.1
+      ip: 10.16.26.1
+      access_ip: 10.16.26.1
+    d6u11:
+      ansible_ssh_host: 10.0.142.14
+    d6u14m13:
+      ansible_host: 10.16.27.1
+      ip: 10.16.27.1
+      access_ip: 10.16.27.1
+    d6u16:
+      ansible_ssh_host: 10.0.142.16
+    d6u19m13:
+      ansible_host: 10.16.28.1
+      ip: 10.16.28.1
+      access_ip: 10.16.28.1
+    d6u21:
+      ansible_ssh_host: 10.0.142.18
+    d6u24m13:
+      ansible_host: 10.16.29.1
+      ip: 10.16.29.1
+      access_ip: 10.16.29.1
+    d6u26:
+      ansible_ssh_host: 10.0.142.20
+    d6u29m13:
+      ansible_host: 10.16.30.1
+      ip: 10.16.30.1
+      access_ip: 10.16.30.1
+    d6u31:
+      ansible_ssh_host: 10.0.142.22
+    d6u34m13:
+      ansible_host: 10.16.31.1
+      ip: 10.16.31.1
+      access_ip: 10.16.31.1
+    d6u36:
+      ansible_ssh_host: 10.0.142.24
+    d6u39m13:
+      ansible_host: 10.16.32.1
+      ip: 10.16.32.1
+      access_ip: 10.16.32.1
+    d6u41:
+      ansible_ssh_host: 10.0.0.142
+    d7l:
+      ansible_ssh_host: 10.0.143.6
+    d7r:
+      ansible_ssh_host: 10.0.143.7
+    d7u1:
+      ansible_ssh_host: 10.0.143.10
+    d7u4m14:
+      ansible_host: 10.17.1.1
+      ip: 10.17.1.1
+      access_ip: 10.17.1.1
+    d7u6:
+      ansible_ssh_host: 10.0.143.12
+    d7u9m14:
+      ansible_host: 10.17.2.1
+      ip: 10.17.2.1
+      access_ip: 10.17.2.1
+    d7u11:
+      ansible_ssh_host: 10.0.143.14
+    d7u14m14:
+      ansible_host: 10.17.3.1
+      ip: 10.17.3.1
+      access_ip: 10.17.3.1
+    d7u16:
+      ansible_ssh_host: 10.0.143.16
+    d7u19m14:
+      ansible_host: 10.17.4.1
+      ip: 10.17.4.1
+      access_ip: 10.17.4.1
+    d7u21:
+      ansible_ssh_host: 10.0.143.18
+    d7u24m14:
+      ansible_host: 10.17.5.1
+      ip: 10.17.5.1
+      access_ip: 10.17.5.1
+    d7u26:
+      ansible_ssh_host: 10.0.143.20
+    d7u29m14:
+      ansible_host: 10.17.6.1
+      ip: 10.17.6.1
+      access_ip: 10.17.6.1
+    d7u31:
+      ansible_ssh_host: 10.0.143.22
+    d7u34m14:
+      ansible_host: 10.17.7.1
+      ip: 10.17.7.1
+      access_ip: 10.17.7.1
+    d7u36:
+      ansible_ssh_host: 10.0.143.24
+    d7u39m14:
+      ansible_host: 10.17.8.1
+      ip: 10.17.8.1
+      access_ip: 10.17.8.1
+    d7u41:
+      ansible_ssh_host: 10.0.0.143
+    d8l:
+      ansible_ssh_host: 10.0.144.6
+    d8r:
+      ansible_ssh_host: 10.0.144.7
+    d8u8:
+      ansible_ssh_host: 10.0.144.10
+    d8u11:
+      ansible_ssh_host: 10.0.144.11
+    d8u14:
+      ansible_ssh_host: 10.0.144.12
+    d8u17:
+      ansible_ssh_host: 10.0.144.13
+    d8u20:
+      ansible_ssh_host: 10.0.144.14
+    d8u23:
+      ansible_ssh_host: 10.0.144.15
+    d8u26:
+      ansible_ssh_host: 10.0.144.16
+    d8u29:
+      ansible_ssh_host: 10.0.144.17
+    d8u32:
+      ansible_ssh_host: 10.0.144.18
+    d8u35:
+      ansible_ssh_host: 10.0.144.19
+    d8u40:
+      ansible_ssh_host: 10.0.0.188
+    d8u42:
+      ansible_ssh_host: 10.0.0.144
+    d9l:
+      ansible_ssh_host: 10.0.145.6
+    d9r:
+      ansible_ssh_host: 10.0.145.7
+    d9u1:
+      ansible_ssh_host: 10.0.145.10
+    d9u4m14:
+      ansible_host: 10.17.9.1
+      ip: 10.17.9.1
+      access_ip: 10.17.9.1
+    d9u6:
+      ansible_ssh_host: 10.0.145.12
+    d9u9m14:
+      ansible_host: 10.17.10.1
+      ip: 10.17.10.1
+      access_ip: 10.17.10.1
+    d9u11:
+      ansible_ssh_host: 10.0.145.14
+    d9u14m14:
+      ansible_host: 10.17.11.1
+      ip: 10.17.11.1
+      access_ip: 10.17.11.1
+    d9u16:
+      ansible_ssh_host: 10.0.145.16
+    d9u19m14:
+      ansible_host: 10.17.12.1
+      ip: 10.17.12.1
+      access_ip: 10.17.12.1
+    d9u21:
+      ansible_ssh_host: 10.0.145.18
+    d9u24m14:
+      ansible_host: 10.17.13.1
+      ip: 10.17.13.1
+      access_ip: 10.17.13.1
+    d9u26:
+      ansible_ssh_host: 10.0.145.20
+    d9u29m14:
+      ansible_host: 10.17.14.1
+      ip: 10.17.14.1
+      access_ip: 10.17.14.1
+    d9u31:
+      ansible_ssh_host: 10.0.145.22
+    d9u34m14:
+      ansible_host: 10.17.15.1
+      ip: 10.17.15.1
+      access_ip: 10.17.15.1
+    d9u36:
+      ansible_ssh_host: 10.0.145.24
+    d9u39m14:
+      ansible_host: 10.17.16.1
+      ip: 10.17.16.1
+      access_ip: 10.17.16.1
+    d9u41:
+      ansible_ssh_host: 10.0.0.145
+    d10l:
+      ansible_ssh_host: 10.0.146.6
+    d10r:
+      ansible_ssh_host: 10.0.146.7
+    d10u1:
+      ansible_ssh_host: 10.0.146.10
+    d10u4m15:
+      ansible_host: 10.17.17.1
+      ip: 10.17.17.1
+      access_ip: 10.17.17.1
+    d10u6:
+      ansible_ssh_host: 10.0.146.12
+    d10u9m15:
+      ansible_host: 10.17.18.1
+      ip: 10.17.18.1
+      access_ip: 10.17.18.1
+    d10u11:
+      ansible_ssh_host: 10.0.146.14
+    d10u14m15:
+      ansible_host: 10.17.19.1
+      ip: 10.17.19.1
+      access_ip: 10.17.19.1
+    d10u16:
+      ansible_ssh_host: 10.0.146.16
+    d10u19m15:
+      ansible_host: 10.17.20.1
+      ip: 10.17.20.1
+      access_ip: 10.17.20.1
+    d10u21:
+      ansible_ssh_host: 10.0.146.18
+    d10u24m15:
+      ansible_host: 10.17.21.1
+      ip: 10.17.21.1
+      access_ip: 10.17.21.1
+    d10u26:
+      ansible_ssh_host: 10.0.146.20
+    d10u29m15:
+      ansible_host: 10.17.22.1
+      ip: 10.17.22.1
+      access_ip: 10.17.22.1
+    d10u31:
+      ansible_ssh_host: 10.0.146.22
+    d10u34m15:
+      ansible_host: 10.17.23.1
+      ip: 10.17.23.1
+      access_ip: 10.17.23.1
+    d10u36:
+      ansible_ssh_host: 10.0.146.24
+    d10u39m15:
+      ansible_host: 10.17.24.1
+      ip: 10.17.24.1
+      access_ip: 10.17.24.1
+    d10u41:
+      ansible_ssh_host: 10.0.0.146
+    d11l:
+      ansible_ssh_host: 10.0.147.6
+    d11r:
+      ansible_ssh_host: 10.0.147.7
+    d11u8:
+      ansible_ssh_host: 10.0.147.10
+    d11u11:
+      ansible_ssh_host: 10.0.147.11
+    d11u14:
+      ansible_ssh_host: 10.0.147.12
+    d11u17:
+      ansible_ssh_host: 10.0.147.13
+    d11u20:
+      ansible_ssh_host: 10.0.147.14
+    d11u23:
+      ansible_ssh_host: 10.0.147.15
+    d11u26:
+      ansible_ssh_host: 10.0.147.16
+    d11u29:
+      ansible_ssh_host: 10.0.147.17
+    d11u32:
+      ansible_ssh_host: 10.0.147.18
+    d11u35:
+      ansible_ssh_host: 10.0.147.19
+    d11u40:
+      ansible_ssh_host: 10.0.0.189
+    d11u42:
+      ansible_ssh_host: 10.0.0.147
+    d12l:
+      ansible_ssh_host: 10.0.148.6
+    d12r:
+      ansible_ssh_host: 10.0.148.7
+    d12u1:
+      ansible_ssh_host: 10.0.148.10
+    d12u4m15:
+      ansible_host: 10.17.25.1
+      ip: 10.17.25.1
+      access_ip: 10.17.25.1
+    d12u6:
+      ansible_ssh_host: 10.0.148.12
+    d12u9m15:
+      ansible_host: 10.17.26.1
+      ip: 10.17.26.1
+      access_ip: 10.17.26.1
+    d12u11:
+      ansible_ssh_host: 10.0.148.14
+    d12u14m15:
+      ansible_host: 10.17.27.1
+      ip: 10.17.27.1
+      access_ip: 10.17.27.1
+    d12u16:
+      ansible_ssh_host: 10.0.148.16
+    d12u19m15:
+      ansible_host: 10.17.28.1
+      ip: 10.17.28.1
+      access_ip: 10.17.28.1
+    d12u21:
+      ansible_ssh_host: 10.0.148.18
+    d12u24m15:
+      ansible_host: 10.17.29.1
+      ip: 10.17.29.1
+      access_ip: 10.17.29.1
+    d12u26:
+      ansible_ssh_host: 10.0.148.20
+    d12u29m15:
+      ansible_host: 10.17.30.1
+      ip: 10.17.30.1
+      access_ip: 10.17.30.1
+    d12u31:
+      ansible_ssh_host: 10.0.148.22
+    d12u34m15:
+      ansible_host: 10.17.31.1
+      ip: 10.17.31.1
+      access_ip: 10.17.31.1
+    d12u36:
+      ansible_ssh_host: 10.0.148.24
+    d12u39m15:
+      ansible_host: 10.17.32.1
+      ip: 10.17.32.1
+      access_ip: 10.17.32.1
+    d12u41:
+      ansible_ssh_host: 10.0.0.148
+    e1l:
+      ansible_ssh_host: 10.0.149.6
+    e1r:
+      ansible_ssh_host: 10.0.149.7
+    e1u2g:
+      ansible_host: 10.18.1.1
+      ip: 10.18.1.1
+      access_ip: 10.18.1.1
+    e1u4g:
+      ansible_host: 10.18.2.1
+      ip: 10.18.2.1
+      access_ip: 10.18.2.1
+    e1u6g:
+      ansible_host: 10.18.3.1
+      ip: 10.18.3.1
+      access_ip: 10.18.3.1
+    e1u08g:
+      ansible_host: 10.18.4.1
+      ip: 10.18.4.1
+      access_ip: 10.18.4.1
+    e1u10g:
+      ansible_host: 10.18.5.1
+      ip: 10.18.5.1
+      access_ip: 10.18.5.1
+    e1u12g:
+      ansible_host: 10.18.6.1
+      ip: 10.18.6.1
+      access_ip: 10.18.6.1
+    e1u14g:
+      ansible_host: 10.18.7.1
+      ip: 10.18.7.1
+      access_ip: 10.18.7.1
+    e1u16g:
+      ansible_host: 10.18.8.1
+      ip: 10.18.8.1
+      access_ip: 10.18.8.1
+    e1u18g:
+      ansible_host: 10.18.9.1
+      ip: 10.18.9.1
+      access_ip: 10.18.9.1
+    e1u20g:
+      ansible_host: 10.18.10.1
+      ip: 10.18.10.1
+      access_ip: 10.18.10.1
+    e1u22g:
+      ansible_host: 10.18.11.1
+      ip: 10.18.11.1
+      access_ip: 10.18.11.1
+    e1u24g:
+      ansible_host: 10.18.12.1
+      ip: 10.18.12.1
+      access_ip: 10.18.12.1
+    e1u26g:
+      ansible_host: 10.18.13.1
+      ip: 10.18.13.1
+      access_ip: 10.18.13.1
+    e1u28g:
+      ansible_host: 10.18.14.1
+      ip: 10.18.14.1
+      access_ip: 10.18.14.1
+    e1u30:
+      ansible_host: 10.0.196.24
+      ansible_user: ashi
+    e1u30g:
+      ansible_host: 10.18.15.1
+      ip: 10.18.15.1
+      access_ip: 10.18.15.1
+    e1u32g:
+      ansible_host: 10.18.16.1
+      ip: 10.18.16.1
+      access_ip: 10.18.16.1
+    e1u36:
+      ansible_ssh_host: 10.0.0.190
+    e1u38:
+      ansible_ssh_host: 10.0.149.27
+    e1u40:
+      ansible_ssh_host: 10.0.149.28
+    e1u42:
+      ansible_ssh_host: 10.0.0.149
+    e2l:
+      ansible_ssh_host: 10.0.150.6
+    e2r:
+      ansible_ssh_host: 10.0.150.7
+    e2u2:
+      ansible_ssh_host: 10.0.150.10
+    e2u4:
+      ansible_ssh_host: 10.0.150.11
+    e2u6:
+      ansible_ssh_host: 10.0.150.12
+    e2u8:
+      ansible_ssh_host: 10.0.150.13
+    e2u10:
+      ansible_ssh_host: 10.0.150.14
+    e2u12:
+      ansible_ssh_host: 10.0.150.15
+    e2u14:
+      ansible_ssh_host: 10.0.150.16
+    e2u16:
+      ansible_ssh_host: 10.0.150.17
+    e2u20:
+      ansible_ssh_host: 10.0.150.18
+    e2u22:
+      ansible_ssh_host: 10.0.150.19
+    e2u24:
+      ansible_ssh_host: 10.0.150.20
+    e2u26:
+      ansible_ssh_host: 10.0.150.21
+    e2u28:
+      ansible_ssh_host: 10.0.150.22
+    e2u30:
+      ansible_ssh_host: 10.0.150.23
+    e2u32:
+      ansible_ssh_host: 10.0.150.24
+    e2u34:
+      ansible_ssh_host: 10.0.150.25
+    e2u36:
+      ansible_ssh_host: 10.0.150.26
+    e2u38:
+      ansible_ssh_host: 10.0.150.27
+    e2u42:
+      ansible_ssh_host: 10.0.0.150
+    e3l:
+      ansible_ssh_host: 10.0.151.6
+    e3r:
+      ansible_ssh_host: 10.0.151.7
+    e3u2:
+      ansible_ssh_host: 10.0.151.10
+    e3u4:
+      ansible_ssh_host: 10.0.151.11
+    e3u6:
+      ansible_ssh_host: 10.0.151.12
+    e3u8:
+      ansible_ssh_host: 10.0.151.13
+    e3u10:
+      ansible_ssh_host: 10.0.151.14
+    e3u12:
+      ansible_ssh_host: 10.0.151.15
+    e3u14:
+      ansible_ssh_host: 10.0.151.16
+    e3u16:
+      ansible_ssh_host: 10.0.151.17
+    e3u20:
+      ansible_ssh_host: 10.0.151.18
+    e3u22:
+      ansible_ssh_host: 10.0.151.19
+    e3u24:
+      ansible_ssh_host: 10.0.151.20
+    e3u26:
+      ansible_ssh_host: 10.0.151.21
+    e3u28:
+      ansible_ssh_host: 10.0.151.22
+    e3u30:
+      ansible_ssh_host: 10.0.151.23
+    e3u32:
+      ansible_ssh_host: 10.0.151.24
+    e3u34:
+      ansible_ssh_host: 10.0.151.25
+    e3u36:
+      ansible_ssh_host: 10.0.151.26
+    e3u38:
+      ansible_ssh_host: 10.0.151.27
+    e3u42:
+      ansible_ssh_host: 10.0.0.151
+    e4l:
+      ansible_ssh_host: 10.0.152.6
+    e4r:
+      ansible_ssh_host: 10.0.152.7
+    e4u6:
+      ansible_ssh_host: 10.0.152.10
+    e4u8:
+      ansible_ssh_host: 10.0.152.11
+    e4u10:
+      ansible_ssh_host: 10.0.152.12
+    e4u12:
+      ansible_ssh_host: 10.0.152.13
+    e4u15:
+      ansible_ssh_host: 10.0.152.14
+    e4u17:
+      ansible_ssh_host: 10.0.152.15
+    e4u19:
+      ansible_ssh_host: 10.0.152.16
+    e4u21:
+      ansible_ssh_host: 10.0.152.17
+    e4u24:
+      ansible_ssh_host: 10.0.152.18
+    e4u26:
+      ansible_ssh_host: 10.0.152.19
+    e4u28:
+      ansible_ssh_host: 10.0.152.20
+    e4u30:
+      ansible_ssh_host: 10.0.152.21
+    e4u33:
+      ansible_ssh_host: 10.0.152.22
+    e4u35:
+      ansible_ssh_host: 10.0.152.23
+    e4u37:
+      ansible_ssh_host: 10.0.152.24
+    e4u39:
+      ansible_ssh_host: 10.0.152.25
+    e4u42:
+      ansible_ssh_host: 10.0.0.152
+    e5l:
+      ansible_ssh_host: 10.0.153.6
+    e5r:
+      ansible_ssh_host: 10.0.153.7
+    e5u6:
+      ansible_ssh_host: 10.0.153.10
+    e5u8:
+      ansible_ssh_host: 10.0.153.11
+    e5u10:
+      ansible_ssh_host: 10.0.153.12
+    e5u12:
+      ansible_ssh_host: 10.0.153.13
+    e5u15:
+      ansible_ssh_host: 10.0.153.14
+    e5u17:
+      ansible_ssh_host: 10.0.153.15
+    e5u19:
+      ansible_ssh_host: 10.0.153.16
+    e5u21:
+      ansible_ssh_host: 10.0.153.17
+    e5u24:
+      ansible_ssh_host: 10.0.153.18
+    e5u26:
+      ansible_ssh_host: 10.0.153.19
+    e5u28:
+      ansible_ssh_host: 10.0.153.20
+    e5u30:
+      ansible_ssh_host: 10.0.153.21
+    e5u33:
+      ansible_ssh_host: 10.0.153.22
+    e5u35:
+      ansible_ssh_host: 10.0.153.23
+    e5u37:
+      ansible_ssh_host: 10.0.153.24
+    e5u39:
+      ansible_ssh_host: 10.0.153.25
+    e5u42:
+      ansible_ssh_host: 10.0.0.153
+    e6l:
+      ansible_ssh_host: 10.0.154.6
+    e6r:
+      ansible_ssh_host: 10.0.154.7
+    e6u6:
+      ansible_ssh_host: 10.0.154.10
+    e6u8:
+      ansible_ssh_host: 10.0.154.11
+    e6u10:
+      ansible_ssh_host: 10.0.154.12
+    e6u12:
+      ansible_ssh_host: 10.0.154.13
+    e6u15:
+      ansible_ssh_host: 10.0.154.14
+    e6u17:
+      ansible_ssh_host: 10.0.154.15
+    e6u19:
+      ansible_ssh_host: 10.0.154.16
+    e6u21:
+      ansible_ssh_host: 10.0.154.17
+    e6u24:
+      ansible_ssh_host: 10.0.154.18
+    e6u26:
+      ansible_ssh_host: 10.0.154.19
+    e6u28:
+      ansible_ssh_host: 10.0.154.20
+    e6u30:
+      ansible_ssh_host: 10.0.154.21
+    e6u33:
+      ansible_ssh_host: 10.0.154.22
+    e6u35:
+      ansible_ssh_host: 10.0.154.23
+    e6u37:
+      ansible_ssh_host: 10.0.154.24
+    e6u39:
+      ansible_ssh_host: 10.0.154.25
+    e6u42:
+      ansible_ssh_host: 10.0.0.154
+    e7l:
+      ansible_ssh_host: 10.0.155.6
+    e7r:
+      ansible_ssh_host: 10.0.155.7
+    e7u6:
+      ansible_ssh_host: 10.0.155.10
+    e7u8:
+      ansible_ssh_host: 10.0.155.11
+    e7u10:
+      ansible_ssh_host: 10.0.155.12
+    e7u12:
+      ansible_ssh_host: 10.0.155.13
+    e7u15:
+      ansible_ssh_host: 10.0.155.14
+    e7u17:
+      ansible_ssh_host: 10.0.155.15
+    e7u19:
+      ansible_ssh_host: 10.0.155.16
+    e7u21:
+      ansible_ssh_host: 10.0.155.17
+    e7u24:
+      ansible_ssh_host: 10.0.155.18
+    e7u26:
+      ansible_ssh_host: 10.0.155.19
+    e7u28:
+      ansible_ssh_host: 10.0.155.20
+    e7u30:
+      ansible_ssh_host: 10.0.155.21
+    e7u33:
+      ansible_ssh_host: 10.0.155.22
+    e7u35:
+      ansible_ssh_host: 10.0.155.23
+    e7u37:
+      ansible_ssh_host: 10.0.155.24
+    e7u39:
+      ansible_ssh_host: 10.0.155.25
+    e7u42:
+      ansible_ssh_host: 10.0.0.155
+    e8l:
+      ansible_ssh_host: 10.0.156.6
+    e8r:
+      ansible_ssh_host: 10.0.156.7
+    e8u6:
+      ansible_ssh_host: 10.0.156.10
+    e8u8:
+      ansible_ssh_host: 10.0.156.11
+    e8u10:
+      ansible_ssh_host: 10.0.156.12
+    e8u12:
+      ansible_ssh_host: 10.0.156.13
+    e8u15:
+      ansible_ssh_host: 10.0.156.14
+    e8u17:
+      ansible_ssh_host: 10.0.156.15
+    e8u19:
+      ansible_ssh_host: 10.0.156.16
+    e8u21:
+      ansible_ssh_host: 10.0.156.17
+    e8u24:
+      ansible_ssh_host: 10.0.156.18
+    e8u26:
+      ansible_ssh_host: 10.0.156.19
+    e8u28:
+      ansible_ssh_host: 10.0.156.20
+    e8u30:
+      ansible_ssh_host: 10.0.156.21
+    e8u33:
+      ansible_ssh_host: 10.0.156.22
+    e8u35:
+      ansible_ssh_host: 10.0.156.23
+    e8u37:
+      ansible_ssh_host: 10.0.156.24
+    e8u39:
+      ansible_ssh_host: 10.0.156.25
+    e8u42:
+      ansible_ssh_host: 10.0.0.156
+    e9l:
+      ansible_ssh_host: 10.0.157.6
+    e9r:
+      ansible_ssh_host: 10.0.157.7
+    e9u42:
+      ansible_ssh_host: 10.0.0.157
+    e10l:
+      ansible_ssh_host: 10.0.158.6
+    e10r:
+      ansible_ssh_host: 10.0.158.7
+    e10u42:
+      ansible_ssh_host: 10.0.0.158
+    e11l:
+      ansible_ssh_host: 10.0.159.6
+    e11r:
+      ansible_ssh_host: 10.0.159.7
+    e11u42:
+      ansible_ssh_host: 10.0.0.159
+    f1l:
+      ansible_ssh_host: 10.0.160.6
+    f1r:
+      ansible_ssh_host: 10.0.160.7
+    f1u39:
+      ansible_ssh_host: 10.0.160.26
+    f1u41:
+      ansible_ssh_host: 10.0.0.191
+    f1u42:
+      ansible_ssh_host: 10.0.0.160
+    f2l:
+      ansible_ssh_host: 10.0.167.6
+    f2r:
+      ansible_ssh_host: 10.0.167.7
+    f2u39:
+      ansible_ssh_host: 10.0.161.26
+    f2u42:
+      ansible_ssh_host: 10.0.0.164
+    f3l:
+      ansible_ssh_host: 10.0.162.6
+    f3r:
+      ansible_ssh_host: 10.0.162.7
+    f3u41:
+      ansible_ssh_host: 10.0.0.192
+    f3u42:
+      ansible_ssh_host: 10.0.0.162
+    f4l:
+      ansible_ssh_host: 10.0.163.6
+    f4r:
+      ansible_ssh_host: 10.0.163.7
+    f4u42:
+      ansible_ssh_host: 10.0.0.163
+    f5u3g:
+      ansible_host: 10.0.193.10
+      ip: 10.0.193.10
+      access_ip: 10.0.193.10
+    f5u5g:
+      ansible_host: 10.22.1.1
+      ip: 10.22.1.1
+      access_ip: 10.22.1.1
+    f5u7g:
+      ansible_host: 10.22.2.1
+      ip: 10.22.2.1
+      access_ip: 10.22.2.1
+    f5u9g:
+      ansible_host: 10.22.3.1
+      ip: 10.22.3.1
+      access_ip: 10.22.3.1
+    f5u11g:
+      ansible_host: 10.22.4.1
+      ip: 10.22.4.1
+      access_ip: 10.22.4.1
+    f5u13g:
+      ansible_host: 10.22.5.1
+      ip: 10.22.5.1
+      access_ip: 10.22.5.1
+    f5u15g:
+      ansible_host: 10.22.6.1
+      ip: 10.22.6.1
+      access_ip: 10.22.6.1
+    f5u17g:
+      ansible_host: 10.22.7.1
+      ip: 10.22.7.1
+      access_ip: 10.22.7.1
+    f5u19g:
+      ansible_host: 10.22.8.1
+      ip: 10.22.8.1
+      access_ip: 10.22.8.1
+    f5u21g:
+      ansible_host: 10.22.9.1
+      ip: 10.22.9.1
+      access_ip: 10.22.9.1
+    f5u23g:
+      ansible_host: 10.22.10.1
+      ip: 10.22.10.1
+      access_ip: 10.22.10.1
+    f5u25g:
+      ansible_host: 10.22.11.1
+      ip: 10.22.11.1
+      access_ip: 10.22.11.1
+    f5u27g:
+      ansible_host: 10.22.12.1
+      ip: 10.22.12.1
+      access_ip: 10.22.12.1
+    f5u29g:
+      ansible_host: 10.22.13.1
+      ip: 10.22.13.1
+      access_ip: 10.22.13.1
+    f5u31g:
+      ansible_host: 10.22.14.1
+      ip: 10.22.14.1
+      access_ip: 10.22.14.1
+    f5u33g:
+      ansible_host: 10.22.15.1
+      ip: 10.22.15.1
+      access_ip: 10.22.15.1
+    f5u39:
+      ansible_ssh_host: 10.0.164.26
+    f5u41:
+      ansible_ssh_host: 10.0.0.193
+    f6u3g:
+      ansible_host: 10.0.193.110
+      ip: 10.0.193.110
+      access_ip: 10.0.193.110
+    f6u5g:
+      ansible_host: 10.22.17.1
+      ip: 10.22.17.1
+      access_ip: 10.22.17.1
+    f6u7g:
+      ansible_host: 10.22.18.1
+      ip: 10.22.18.1
+      access_ip: 10.22.18.1
+    f6u9g:
+      ansible_host: 10.22.19.1
+      ip: 10.22.19.1
+      access_ip: 10.22.19.1
+    f6u11g:
+      ansible_host: 10.22.20.1
+      ip: 10.22.20.1
+      access_ip: 10.22.20.1
+    f6u13g:
+      ansible_host: 10.22.21.1
+      ip: 10.22.21.1
+      access_ip: 10.22.21.1
+    f6u15g:
+      ansible_host: 10.22.22.1
+      ip: 10.22.22.1
+      access_ip: 10.22.22.1
+    f6u17g:
+      ansible_host: 10.22.23.1
+      ip: 10.22.23.1
+      access_ip: 10.22.23.1
+    f6u19g:
+      ansible_host: 10.22.24.1
+      ip: 10.22.24.1
+      access_ip: 10.22.24.1
+    f6u21g:
+      ansible_host: 10.22.25.1
+      ip: 10.22.25.1
+      access_ip: 10.22.25.1
+    f6u23g:
+      ansible_host: 10.22.26.1
+      ip: 10.22.26.1
+      access_ip: 10.22.26.1
+    f6u25g:
+      ansible_host: 10.22.27.1
+      ip: 10.22.27.1
+      access_ip: 10.22.27.1
+    f6u27g:
+      ansible_host: 10.22.28.1
+      ip: 10.22.28.1
+      access_ip: 10.22.28.1
+    f6u29g:
+      ansible_host: 10.22.29.1
+      ip: 10.22.29.1
+      access_ip: 10.22.29.1
+    f6u31g:
+      ansible_host: 10.22.30.1
+      ip: 10.22.30.1
+      access_ip: 10.22.30.1
+    f6u33g:
+      ansible_host: 10.22.31.1
+      ip: 10.22.31.1
+      access_ip: 10.22.31.1
+    f6u39:
+      ansible_ssh_host: 10.0.165.26
+    f6u42:
+      ansible_ssh_host: 10.0.0.165
+    f7u42:
+      ansible_ssh_host: 10.0.0.166
+    f8u1:
+      ansible_ssh_host: 10.0.167.10
+    f8u3:
+      ansible_ssh_host: 10.0.167.11
+    f8u5:
+      ansible_ssh_host: 10.0.167.12
+    f8u7:
+      ansible_ssh_host: 10.0.167.13
+    f8u9:
+      ansible_ssh_host: 10.0.167.14
+    f8u11:
+      ansible_ssh_host: 10.0.167.15
+    f8u13:
+      ansible_ssh_host: 10.0.167.16
+    f8u15:
+      ansible_ssh_host: 10.0.167.17
+    f8u17:
+      ansible_ssh_host: 10.0.167.18
+    f8u19:
+      ansible_ssh_host: 10.0.167.19
+    f8u21:
+      ansible_ssh_host: 10.0.167.20
+    f8u23:
+      ansible_ssh_host: 10.0.167.21
+    f8u25:
+      ansible_ssh_host: 10.0.167.22
+    f8u27:
+      ansible_ssh_host: 10.0.167.23
+    f8u29:
+      ansible_ssh_host: 10.0.167.24
+    f8u31:
+      ansible_ssh_host: 10.0.167.25
+    f8u33:
+      ansible_ssh_host: 10.0.167.26
+    f8u35:
+      ansible_ssh_host: 10.0.167.27
+    f8u37:
+      ansible_ssh_host: 10.0.167.28
+    f8u39:
+      ansible_ssh_host: 10.0.167.29
+    f8u42:
+      ansible_ssh_host: 10.0.0.167
+    f9l:
+      ansible_ssh_host: 10.0.168.6
+    f9r:
+      ansible_ssh_host: 10.0.168.7
+    f9u41:
+      ansible_ssh_host: 10.0.0.168
+    f10l:
+      ansible_ssh_host: 10.0.169.6
+    f10r:
+      ansible_ssh_host: 10.0.169.7
+    f10u1:
+      ansible_ssh_host: 10.0.169.10
+    f10u3:
+      ansible_ssh_host: 10.0.169.11
+    f10u5:
+      ansible_ssh_host: 10.0.169.12
+    f10u7:
+      ansible_ssh_host: 10.0.169.13
+    f10u9:
+      ansible_ssh_host: 10.0.169.14
+    f10u11:
+      ansible_ssh_host: 10.0.169.15
+    f10u13:
+      ansible_ssh_host: 10.0.169.16
+    f10u15:
+      ansible_ssh_host: 10.0.169.17
+    f10u17:
+      ansible_ssh_host: 10.0.169.18
+    f10u19:
+      ansible_ssh_host: 10.0.169.19
+    f10u21:
+      ansible_ssh_host: 10.0.169.20
+    f10u23:
+      ansible_ssh_host: 10.0.169.21
+    f10u25:
+      ansible_ssh_host: 10.0.169.22
+    f10u27:
+      ansible_ssh_host: 10.0.169.23
+    f10u29:
+      ansible_ssh_host: 10.0.169.24
+    f10u31:
+      ansible_ssh_host: 10.0.169.25
+    f10u33:
+      ansible_ssh_host: 10.0.169.26
+    f10u35:
+      ansible_ssh_host: 10.0.169.27
+    f10u37:
+      ansible_ssh_host: 10.0.169.28
+    f10u39:
+      ansible_ssh_host: 10.0.169.29
+    f10u41:
+      ansible_ssh_host: 10.0.169.30
+    f10u42:
+      ansible_ssh_host: 10.0.0.169
+    f11u41:
+      ansible_ssh_host: 10.0.0.170
+    f12u41:
+      ansible_ssh_host: 10.0.0.171
+    f13l:
+      ansible_ssh_host: 10.0.172.6
+    f13r:
+      ansible_ssh_host: 10.0.172.7
+    f13u1:
+      ansible_ssh_host: 10.0.172.10
+    f13u3:
+      ansible_ssh_host: 10.0.172.11
+    f13u5:
+      ansible_ssh_host: 10.0.172.12
+    f13u7:
+      ansible_ssh_host: 10.0.172.13
+    f13u9:
+      ansible_ssh_host: 10.0.172.14
+    f13u11:
+      ansible_ssh_host: 10.0.172.15
+    f13u13:
+      ansible_ssh_host: 10.0.172.16
+    f13u15:
+      ansible_ssh_host: 10.0.172.17
+    f13u17:
+      ansible_ssh_host: 10.0.172.18
+    f13u19:
+      ansible_ssh_host: 10.0.172.19
+    f13u21:
+      ansible_ssh_host: 10.0.172.20
+    f13u23:
+      ansible_ssh_host: 10.0.172.21
+    f13u25:
+      ansible_ssh_host: 10.0.172.22
+    f13u27:
+      ansible_ssh_host: 10.0.172.23
+    f13u29:
+      ansible_ssh_host: 10.0.172.24
+    f13u31:
+      ansible_ssh_host: 10.0.172.25
+    f13u33:
+      ansible_ssh_host: 10.0.172.26
+    f13u35:
+      ansible_ssh_host: 10.0.172.27
+    f13u37:
+      ansible_ssh_host: 10.0.172.28
+    f13u39:
+      ansible_ssh_host: 10.0.172.29
+    f13u41:
+      ansible_ssh_host: 10.0.172.30
+    f13u42:
+      ansible_ssh_host: 10.0.0.172
+    f14l:
+      ansible_ssh_host: 10.0.173.6
+    f14r:
+      ansible_ssh_host: 10.0.173.7
+    f14u41:
+      ansible_ssh_host: 10.0.0.173
+
