@@ -1,6 +1,31 @@
 # nodelet
 Python library to aid in distributed node operations
 
+## Changes
+
+Added lookup function for nodes supports input types...
+- "x.x.x.x"
+- "c7u4m10"
+- "c7u4"
+
+```python
+
+> from nodelet.utils.lookup_node import lookup_node
+
+> lookup_node("10.15.1.1")
+
+{'c7u4m10': {
+       'aisle': 'c', 
+       'bmc_addr': '10.0.131.10', 
+       'ip_addr': '10.15.1.1',
+       'megapod': 10,
+       'rack': 7, 
+       'slot': 4
+       }
+}
+
+```
+
 ## Requirements
 
 ### Running from within RA2
