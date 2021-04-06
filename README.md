@@ -3,15 +3,11 @@ Python library to aid in distributed node operations
 
 ## Changes
 
-Added lookup function for nodes supports input types...
-- "x.x.x.x"
-- "c7u4m10"
-- "c7u4"
+Added lookup function for nodes supports input types; "x.x.x.x", "c7u4m10", "c7u4"
 
 ```python
 
 > from nodelet.utils.lookup_node import lookup_node
-
 > lookup_node("10.15.1.1")
 
 {'c7u4m10': {
@@ -23,6 +19,20 @@ Added lookup function for nodes supports input types...
        'slot': 4
        }
 }
+
+```
+
+Added by_megapod function which outputs the IP addresses of the mp input.
+
+```python
+
+> from nodelet.utils.list_targets import by_megapod
+> by_megapod(0)
+
+['10.10.1.1', '10.10.2.1', '10.10.3.1', '10.10.4.1', 
+'10.10.5.1', '10.10.6.1', '10.10.7.1', '10.10.8.1', 
+'10.10.9.1', '10.10.10.1', '10.10.11.1', '10.10.12.1', 
+'10.10.13.1', '10.10.14.1', '10.10.15.1', '10.10.16.1']
 
 ```
 
